@@ -108,6 +108,9 @@ body {
   }
 }
 
+input[type=text], textarea {
+  color: #33384A;
+}
 
 /*
  * Cover
@@ -147,35 +150,69 @@ body {
 
 
 /* ABOUT */
-body#about {
-  background-color: #fff;
+#about {
+  background-color: #B4B8B3;
 }
-#about h1 {
-  font-family: 'Neuton', serif;
+#about h1, #portfolio h1 {
+  font-family: 'PT Sans', sans-serif;
   font-weight: bold;
   font-size: 120px;
   color: #587fa6;
 }
-#about h3 {
+#about .cover h3, #portfolio .cover h3 {
   font-family: 'Open Sans', sans-serif;
-  font-family: 14px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: .15em;
   text-transform: uppercase;
 }
-#about p {
+#about p, #portfolio p {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   color: #848B91;
   line-height: 1.5;
 }
 
-#about .masthead-nav li a {
+#about .masthead-nav li a, #portfolio .masthead-nav li a {
     color: #33384A;
 }
-#about .masthead-nav li.active a {
+#about .masthead-nav li.active a, #portfolio .masthead-nav li.active a {
   color: #587fa6;
   border-bottom-color: #587fa6;
+}
+
+/* PORTFOLIO */
+#portfolio {
+  background-color: #fff;
+  height: auto;
+}
+#portfolio .container {
+    padding: 48px 0;
+}
+#portfolio .masthead {
+    position: initial;
+}
+#portfolio .cover h3 {
+  color: #33384A;
+}
+
+/* CONTACT */
+#contact {
+  background-color: #5F788C;
+}
+
+@media screen and (min-width: 768px) {
+/*#portfolio .masthead {
+    right: 29%;
+}*/
+}
+@media screen and (max-width: 767px) {
+  #portfolio .cover-container, #about .cover-container {
+    width: 100%;
+}
+#about h1 {
+  font-size: 60px;
+}
 }
 
 

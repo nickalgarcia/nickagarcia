@@ -43,7 +43,7 @@
 </script>
   </head>
 
-  <body id="home">
+  <body id="portfolio">
 
     <div class="site-wrapper">
 
@@ -56,35 +56,36 @@
               <h3 class="masthead-brand">Cover</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="../../">Home</a></li>
+                  <li><a href="../../">Home</a></li>
                   <li><a href="../../about.html">About</a></li>
                   <li><a href="../../portfolio.html">Portfolio</a></li>
-                  <li><a href="../../contact.html">Contact</a></li>
+                  <li class="active"><a href="../../contact.html">Contact</a></li>
                 </ul>
               </nav>
             </div>
           </div>
+                <div class="inner cover">
+                <form method="post" action="../../contact-form/contactengine.php">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name" placeholder="Name" />
+  
+        <label for="Email">Email:</label>
+        <input type="text" name="Email" id="Email" placeholder="Email" />
+        
+        <label for="Message">Message:</label><br />
+        <textarea name="Message" rows="20" cols="20" id="Message" placeholder="Message" ></textarea>
 
-          <div class="inner cover">
-            <h1 class="cover-heading"></h1>
-            <p class="lead">Web Design & Development</p>
-            <!--<p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
-            </p>-->
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              
+        <input type="submit" name="submit" value="Submit" class="submit-button" />
+      </form>
+                </div>
+                <div class="mastfoot">
+                    <div class="inner">
+                        
+                    </div>
+                </div>
             </div>
-          </div>
-
         </div>
-
-      </div>
-
     </div>
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
