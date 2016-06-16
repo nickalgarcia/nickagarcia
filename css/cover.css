@@ -44,11 +44,14 @@ body {
 }
 
 section {
-  height: 100%;
+    height: 100%;
+    padding-top: 120px;
 }
+
 #work {
-  height: auto;
+    height: auto;
 }
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
@@ -70,6 +73,47 @@ section {
 .cover-container {
     margin-right: auto;
     margin-left: auto;
+}
+
+
+/* Navbar edits */
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background: transparent;
+    color: #fff;
+    border-bottom: 2px solid;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar-toggle {
+    margin-right: 45px;
 }
 
 
@@ -262,8 +306,20 @@ textarea {
     #about h1 {
         font-size: 60px;
     }
-    #about {
-        height: auto;
+    .navbar-default {
+        background-color: #e7e7e7;
+    }
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.active>a:hover {
+        border-bottom: 0;
+    }
+    .navbar-nav {
+      float: none;
+    }
+    section {
+      height: auto;
+      padding-top: 120px 0 80px;
     }
 }
 
