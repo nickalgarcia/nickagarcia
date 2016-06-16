@@ -2,21 +2,26 @@
  * Globals
  */
 
+
 /* Links */
+
 a,
 a:focus,
 a:hover {
-  color: #fff;
+    color: #fff;
 }
 
+
 /* Custom default button */
+
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritence from `body` */
+    background-color: #fff;
+    border: 1px solid #fff;
 }
 
 
@@ -26,193 +31,237 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  background-color: #333;
-  /*background: url('../../nickagarcia/images/background.png');
+    height: 100%;
+    /*background-color: #333;*/
+    /*background: url('../../nickagarcia/images/background.png');
   background-size: cover;*/
 }
+
 body {
-  color: #fff;
-  text-align: center;
-  /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+    color: #fff;
+    text-align: center;
+    /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+}
+
+section {
+  height: 100%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
+
 .site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-  /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    display: table;
+    width: 100%;
+    height: 100%;
+    /* For at least Firefox */
+    min-height: 100%;
+    /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
 }
+
 .site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
+    display: table-cell;
+    vertical-align: top;
 }
 
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 /* Padding for spacing */
+
 .inner {
-  padding: 30px;
+    padding: 30px;
 }
 
 
 /*
  * Header
  */
+
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .masthead-nav > li {
-  display: inline-block;
-  font-family: 'Open Sans Condensed', sans-serif; 
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
+
 .masthead-nav > li + li {
-  margin-left: 20px;
+    margin-left: 20px;
 }
+
 .masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff; /* IE8 proofing */
-  color: #fff;
-  border-bottom: 2px solid transparent;
-  text-transform: uppercase;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    /* IE8 proofing */
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    text-transform: uppercase;
 }
+
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255, 255, 255, .25);
 }
+
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+    color: #fff;
+    border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
+    .masthead-brand {
+        float: left;
+    }
+    .masthead-nav {
+        float: right;
+    }
 }
 
-input[type=text], textarea {
-  color: #33384A;
+input[type=text],
+textarea {
+    color: #33384A;
 }
+
 
 /*
  * Cover
  */
+
 #home {
-  background-color: #587fa6;
+    background-color: #587fa6;
 }
+
 #home .cover {
-  width: 330px;
-  width: 330px;
-  margin: auto;
+    width: 330px;
+    width: 330px;
+    margin: auto;
 }
+
 .cover {
-  padding: 0 20px;
-  
+    padding: 0 20px;
 }
+
 .cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+    padding: 10px 20px;
+    font-weight: bold;
 }
+
+
 /* Logo */
+
 #home .cover-heading {
-  background: url('../../images/logo.png') top right;
-  width: 100%;
-  height: 210px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin: auto;
-  display: block;
-  background-position: center;
+    background: url('../../images/logo.png') top right;
+    width: 100%;
+    height: 210px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: block;
+    background-position: center;
 }
+
+
 /* Lead text under logo */
+
 .lead {
-  font-family: 'Wire One', sans-serif;
-  font-size: 45px;
+    font-family: 'Wire One', sans-serif;
+    font-size: 45px;
 }
 
 
 /* ABOUT */
+
 #about {
-  background-color: #B4B8B3;
-}
-#about h1, #portfolio h1 {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
-  font-size: 120px;
-  color: #587fa6;
-}
-#about .cover h3, #portfolio .cover h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: .15em;
-  text-transform: uppercase;
-}
-#about p, #portfolio p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  color: #848B91;
-  line-height: 1.5;
+    background-color: #B4B8B3;
 }
 
-#about .masthead-nav li a, #portfolio .masthead-nav li a {
+#about h1,
+#portfolio h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    color: #587fa6;
+}
+
+#about .cover h3,
+#portfolio .cover h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+
+#about p,
+#portfolio p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #848B91;
+    line-height: 1.5;
+}
+
+#about .masthead-nav li a,
+#portfolio .masthead-nav li a {
     color: #33384A;
 }
-#about .masthead-nav li.active a, #portfolio .masthead-nav li.active a {
-  color: #587fa6;
-  border-bottom-color: #587fa6;
+
+#about .masthead-nav li.active a,
+#portfolio .masthead-nav li.active a {
+    color: #587fa6;
+    border-bottom-color: #587fa6;
 }
 
+
 /* PORTFOLIO */
+
 #portfolio {
-  background-color: #fff;
-  height: auto;
+    background-color: #fff;
+    height: auto;
 }
+
 #portfolio .container {
     padding: 48px 0;
 }
+
 #portfolio .masthead {
     position: initial;
 }
+
 #portfolio .cover h3 {
-  color: #33384A;
+    color: #33384A;
 }
+
 
 /* CONTACT */
+
 #contact {
-  background-color: #5F788C;
+    background-color: #5F788C;
 }
 
-@media screen and (min-width: 768px) {
-/*#portfolio .masthead {
-    right: 29%;
-}*/
-}
 @media screen and (max-width: 767px) {
-  #portfolio .cover-container, #about .cover-container {
-    width: 100%;
-}
-#about h1 {
-  font-size: 60px;
-}
+    #portfolio .cover-container,
+    #about .cover-container {
+        width: 100%;
+    }
+    #about h1 {
+        font-size: 60px;
+    }
+    #about {
+        height: auto;
+    }
 }
 
 
@@ -221,8 +270,9 @@ input[type=text], textarea {
  */
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+    color: #999;
+    /* IE8 proofing */
+    color: rgba(255, 255, 255, .5);
 }
 
 
@@ -231,31 +281,32 @@ input[type=text], textarea {
  */
 
 @media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
+    /* Pull out the header and footer */
+    .masthead {
+        position: fixed;
+        top: 0;
+    }
+    .mastfoot {
+        position: fixed;
+        bottom: 0;
+    }
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+    /* Handle the widths */
+    .masthead,
+    .mastfoot,
+    .cover-container {
+        width: 100%;
+        /* Must be percentage or pixels for horizontal alignment */
+    }
 }
 
 @media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
-  }
+    .masthead,
+    .mastfoot,
+    .cover-container {
+        width: 700px;
+    }
 }
