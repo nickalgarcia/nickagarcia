@@ -46,6 +46,9 @@ body {
 section {
   height: 100%;
 }
+#work {
+  height: auto;
+}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
