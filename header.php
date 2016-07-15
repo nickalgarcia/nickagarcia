@@ -39,7 +39,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">About Me</a>
+                    <a href="#about">About Me</a>
                 </li>
                 <li>
                     <a href="#">Portfolio</a>
