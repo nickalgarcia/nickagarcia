@@ -1,3 +1,7 @@
+.mainContent {
+	margin-left: 40px;
+}
+
 .homepage-back {
     position: relative;
 }
@@ -12,4 +16,11 @@
 
 .photo-overlay h3 {
     color: #fff;
+    font-family: 'Cormorant', serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.top {
+    margin-bottom: 10px;
 }

@@ -14,6 +14,9 @@
     <link href="../../css/simple-sidebar.css" rel="stylesheet">
     <link href="../../css/custom.css" rel="stylesheet">
 
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Cormorant:400,300,600italic' rel='stylesheet' type='text/css'>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
