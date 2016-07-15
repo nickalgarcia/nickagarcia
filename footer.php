@@ -34,7 +34,7 @@ $(document).ready(function () {
         overlay.hide();
         trigger.removeClass('is-open');
         trigger.addClass('is-closed');
-        isClosed = true;
+        isClosed = false;
       } else {   
         overlay.show();
         trigger.removeClass('is-closed');
