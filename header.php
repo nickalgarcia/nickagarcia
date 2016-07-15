@@ -28,11 +28,11 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Nick Garcia
+                       Nick Garcia
                     </a>
                 </li>
                 <li>
@@ -48,11 +48,13 @@
                     <a href="#">Contact</a>
                 </li>
             </ul>
-        </div>
-        <!--<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>-->
-        <button id="menu-toggle" href="#menu-toggle" type="button" class="hamburger is-open" data-toggle="offcanvas">
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+                <!-- Page Content -->
+        <div id="page-content-wrapper">
+                    <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
                 <span class="hamb-top"></span>
     			<span class="hamb-middle"></span>
 				<span class="hamb-bottom"></span>
             </button>
-        <!-- /#sidebar-wrapper -->

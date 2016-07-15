@@ -1,3 +1,5 @@
+        </div>
+        <!-- /#page-content-wrapper -->
     </div>
     <!-- /#wrapper -->
     <!-- Bootstrap core JavaScript
@@ -17,10 +19,10 @@
         <!-- Menu Toggle Script -->
     <script>
 //HAMBURGER script
-    $(document).ready(function () {
+$(document).ready(function () {
   var trigger = $('.hamburger'),
       overlay = $('.overlay'),
-     isClosed = true;
+     isClosed = false;
 
     trigger.click(function () {
       hamburger_cross();      
@@ -32,7 +34,7 @@
         overlay.hide();
         trigger.removeClass('is-open');
         trigger.addClass('is-closed');
-        isClosed = false;
+        isClosed = true;
       } else {   
         overlay.show();
         trigger.removeClass('is-closed');
@@ -41,10 +43,9 @@
       }
   }
   
-		$("#menu-toggle").click(function(e) {
-        //e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    }); 
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
 });
     </script>
   </body>
