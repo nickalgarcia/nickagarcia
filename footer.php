@@ -46,7 +46,7 @@
   }
   
 		$("#menu-toggle").click(function(e) {
-        e.preventDefault();
+        //e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     }); 
 });
