@@ -1,7 +1,6 @@
             <div class="container-fluid mainContent">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>Nick Garcia</h1>
                         <div class="col-lg-12">
                         <div class="col-lg-7 homepage-back">
                         	<img src="http://blog.iso50.com/wp-content/uploads/2012/07/IMG_0084.jpg">
