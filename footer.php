@@ -1,4 +1,5 @@
-
+    </div>
+    <!-- /#wrapper -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -15,11 +16,6 @@
 
         <!-- Menu Toggle Script -->
     <script>
-    /*$("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });*/
-
 //HAMBURGER script
     $(document).ready(function () {
   var trigger = $('.hamburger'),
