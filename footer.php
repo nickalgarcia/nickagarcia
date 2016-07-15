@@ -12,15 +12,5 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../js/ie10-viewport-bug-workaround.js"></script>
-
-    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
-
-    <script>
-    $('.grid').masonry({
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: 200
-});
-</script>
   </body>
 </html>

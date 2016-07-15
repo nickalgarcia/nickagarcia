@@ -26,10 +26,6 @@
     <link href='https://fonts.googleapis.com/css?family=Neuton:400,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
-    <style>
-    .grid-item { width: 200px; }
-.grid-item--width2 { width: 400px; }
-</style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
