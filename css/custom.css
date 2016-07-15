@@ -16,11 +16,16 @@
 
 .photo-overlay h3 {
     color: #fff;
-    font-family: 'Cormorant', serif;
-    font-weight: 600;
+    font-family: 'Cardo', serif;
+    font-weight: 400;
     font-style: italic;
 }
 
 .top {
     margin-bottom: 10px;
 }
+
+
+
+
+calc(100% - 30px)
