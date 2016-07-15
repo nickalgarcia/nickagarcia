@@ -22,6 +22,12 @@
                 </li>
             </ul>
         </div>
+        <!--<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>-->
+        <button id="menu-toggle" href="#menu-toggle" type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
@@ -35,7 +41,7 @@
                         <div class="col-lg-5"><div class="top"><img src="http://bashooka.com/wp-content/uploads/2014/06/geometry-design-inspiration-26.jpg">Portfolio</div><div div class="bottom"><img src="http://room-decorating-ideas.com/wp-content/uploads/2015/07/lamp-geometric-design-sketch-manufacturer-Indoor-lighting.jpg">Blog</div></div>
                         </div>
 
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                        
                     </div>
                 </div>
             </div>
