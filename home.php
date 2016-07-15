@@ -1,9 +1,11 @@
             <div class="container-fluid mainContent" id="home">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="col-lg-7 homepage-back">
-                        	<a href="../../#about"><img src="http://blog.iso50.com/wp-content/uploads/2012/07/IMG_0084.jpg">
-                        	<div class="photo-overlay"><h3>About Me</h3></div></a>
+                        <div class="col-lg-7">
+                        	<div class="homepage-back">
+                        		<a href="../../#about"><img src="http://blog.iso50.com/wp-content/uploads/2012/07/IMG_0084.jpg">
+                        		<div class="photo-overlay"><h3>About Me</h3></div></a>
+                        	</div>
                         </div>
                         <div class="col-lg-5">
                         	<div class="top homepage-back">
