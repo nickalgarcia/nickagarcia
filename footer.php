@@ -15,10 +15,10 @@
 
         <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
+    /*$("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
-    });
+    });*/
 
 //HAMBURGER script
     $(document).ready(function () {
@@ -45,9 +45,10 @@
       }
   }
   
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-  });  
+		$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    }); 
 });
     </script>
   </body>
