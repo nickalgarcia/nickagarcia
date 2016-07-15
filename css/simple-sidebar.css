@@ -32,7 +32,7 @@ html { height: 100%;}
     margin-left: -220px;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #1a1a1a;
+    background: #fff;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -85,41 +85,13 @@ html { height: 100%;}
     z-index: -1;
     height: 100%;
     width: 3px;
-    background-color: #1c1c1c;
     -webkit-transition: width .2s ease-in;
       -moz-transition:  width .2s ease-in;
        -ms-transition:  width .2s ease-in;
             transition: width .2s ease-in;
 
 }
-.sidebar-nav li:first-child a {
-    color: #fff;
-    background-color: #1a1a1a;
-}
-.sidebar-nav li:nth-child(2):before {
-    background-color: #ec1b5a;   
-}
-.sidebar-nav li:nth-child(3):before {
-    background-color: #79aefe;   
-}
-.sidebar-nav li:nth-child(4):before {
-    background-color: #314190;   
-}
-.sidebar-nav li:nth-child(5):before {
-    background-color: #279636;   
-}
-.sidebar-nav li:nth-child(6):before {
-    background-color: #7d5d81;   
-}
-.sidebar-nav li:nth-child(7):before {
-    background-color: #ead24c;   
-}
-.sidebar-nav li:nth-child(8):before {
-    background-color: #2d2366;   
-}
-.sidebar-nav li:nth-child(9):before {
-    background-color: #35acdf;   
-}
+
 .sidebar-nav li:hover:before,
 .sidebar-nav li.open:hover:before {
     width: 100%;
@@ -132,7 +104,7 @@ html { height: 100%;}
 
 .sidebar-nav li a {
     display: block;
-    color: #ddd;
+    color: #000;
     text-decoration: none;
     padding: 10px 15px 10px 30px;    
 }
@@ -143,7 +115,7 @@ html { height: 100%;}
 .sidebar-nav li.open a:hover,
 .sidebar-nav li.open a:active,
 .sidebar-nav li.open a:focus{
-    color: #fff;
+    color: #999;
     text-decoration: none;
     background-color: transparent;
 }
@@ -226,10 +198,12 @@ html { height: 100%;}
 .hamburger.is-closed .hamb-middle {
   top: 50%;
   margin-top: -2px;
+  width: 80%;
 }
 .hamburger.is-closed .hamb-bottom {
   bottom: 5px;  
   -webkit-transition: all .35s ease-in-out;
+  width: 60%;
 }
 
 .hamburger.is-closed:hover .hamb-top {
