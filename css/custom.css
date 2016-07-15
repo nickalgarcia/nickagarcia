@@ -1,0 +1,15 @@
+.homepage-back {
+    position: relative;
+}
+
+.photo-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 96.7%;
+    background: rgba(0,0,0,0.9);
+    padding: 5px 15px;
+}
+
+.photo-overlay h3 {
+    color: #fff;
+}
