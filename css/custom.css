@@ -42,6 +42,10 @@ li.sidebar-brand a {
 #about {
 	margin-top: 60px;
 }
+
+.snippet {
+	margin-top: 60px;
+}
 .snippet img {
     width: 15%;
     float: left;
