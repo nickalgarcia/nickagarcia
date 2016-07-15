@@ -22,3 +22,16 @@
 .top {
     margin-bottom: 10px;
 }
+
+li.sidebar-brand a {
+    background: url(../../images/sprites.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: absolute;
+    width: 250px;
+    height: 36px;
+    padding: 0;
+    top: 40%;
+    left: 12%;
+}
