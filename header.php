@@ -35,8 +35,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
-                       Nick Garcia
+                    <a href="../../">
                     </a>
                 </li>
                 <li>
