@@ -12,6 +12,12 @@
             <h1 class="cover-heading"></h1>
             <p class="lead">Web Design & Development</p>
 
+            <div class="row">
+            <div class="col-md-7"><img src="http://www.telegraph.co.uk/content/dam/Travel/leadAssets/34/97/comedy-hamster_3497562a-large.jpg"></div>
+            <div class="col-md-5"><img src="https://timedotcom.files.wordpress.com/2015/12/amazing-animal-photos-2015-003.jpg?quality=75&strip=color&w=812">
+            <img src="https://static.pexels.com/photos/35435/pexels-photo.jpg"></div>
+            </div>
+
           </div>
 
           <div class="mastfoot">
