@@ -11,9 +11,12 @@
           <div class="inner cover">
             <h1 class="cover-heading"></h1>
             <p class="lead">Web Design & Development</p>
-            <!--<p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
-            </p>-->
+<div class="grid">
+  <div class="grid-item"><img src="http://www.planwallpaper.com/static/images/steamworkshop_webupload_previewfile_376683463_preview.jpg"></div>
+  <div class="grid-item grid-item--width2"><img src="http://www.planwallpaper.com/static/images/6968796-desktop-wallpaper-backgrounds-1080p.jpg"></div>
+  <div class="grid-item"><img src="http://www.planwallpaper.com/static/images/colorful-backgrounds_00394612.jpg"></div>
+  ...
+</div>
           </div>
 
           <div class="mastfoot">

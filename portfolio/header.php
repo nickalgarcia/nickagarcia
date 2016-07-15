@@ -12,8 +12,7 @@
     <title>Nick Garcia</title>
 
     <!-- Bootstrap core CSS -->
-    <!--<link href="../../css/bootstrap.min.css" rel="stylesheet">-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -25,11 +24,6 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Neuton:400,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-
-    <style>
-    .grid-item { width: 200px; }
-.grid-item--width2 { width: 400px; }
-</style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -66,10 +60,10 @@
         <ul class="nav navbar-nav">
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
-          <li><a class="page-scroll" href="#page-top">Home</a></li>
-          <li><a class="page-scroll" href="#about">About</a></li>
-          <li><a class="page-scroll" href="#work">Work</a></li>
-          <li><a class="page-scroll" href="#contact">Contact</a></li>
+          <li><a class="page-scroll" href="../../">Home</a></li>
+          <li><a class="page-scroll" href="../../#about">About</a></li>
+          <li><a class="page-scroll" href="../../#work">Work</a></li>
+          <li><a class="page-scroll" href="../../#contact">Contact</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
