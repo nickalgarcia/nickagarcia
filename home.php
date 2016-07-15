@@ -23,7 +23,7 @@
             </ul>
         </div>
         <!--<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>-->
-        <button id="menu-toggle" href="#menu-toggle" type="button" class="hamburger is-closed" data-toggle="offcanvas">
+        <button id="menu-toggle" href="#menu-toggle" type="button" class="hamburger is-open" data-toggle="offcanvas">
                 <span class="hamb-top"></span>
     			<span class="hamb-middle"></span>
 				<span class="hamb-bottom"></span>
