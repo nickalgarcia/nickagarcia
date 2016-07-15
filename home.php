@@ -1,4 +1,4 @@
-            <div class="container-fluid mainContent">
+            <div class="container-fluid mainContent" id="home">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="col-lg-7 homepage-back">
