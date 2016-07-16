@@ -1,6 +1,6 @@
 p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
 img {
@@ -67,6 +67,9 @@ li.sidebar-brand a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    p {
+        font-size: 26px;
+    }
     .photo-overlay {
         position: initial;
         background: rgba(0, 0, 0, 0.3);
@@ -88,6 +91,9 @@ li.sidebar-brand a {
 }
 
 @media screen and (max-width: 767px) {
+    p {
+        font-size: 22px;
+    }
     .photo-overlay {
         position: initial;
         background: rgba(0, 0, 0, 0.3);
