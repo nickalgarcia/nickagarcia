@@ -3,11 +3,13 @@ img {
     width: 100%;
 }
 
-#home, #about {
-	height: 100vh;
+#home,
+#about {
+    height: 100vh;
 }
+
 .mainContent {
-	margin-left: 40px;
+    margin-left: 40px;
 }
 
 .homepage-back {
@@ -18,7 +20,7 @@ img {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0, 0, 0, 0.9);
     padding: 5px 15px;
 }
 
@@ -45,15 +47,38 @@ li.sidebar-brand a {
 }
 
 #about {
-	margin-top: 60px;
+    margin-top: 60px;
 }
 
 .snippet {
-	margin-top: 60px;
+    margin-top: 60px;
 }
+
 .snippet img {
     width: 15%;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .photo-overlay {
+        position: initial;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .top {
+        margin: 20px 0;
+    }
+    .snippet img {
+        width: 100%;
+        float: none;
+    }
+    #home,
+    #about {
+        height: 100%;
+    }
+    #about {
+        margin-left: 60px;
+        margin-bottom: 40px;
+    }
 }

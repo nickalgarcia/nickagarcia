@@ -9,60 +9,14 @@
     <script>window.jQuery || document.write('<script src="../../js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="../../js/jquery.easing.min.js"></script>
-    <script src="../../js/scrolling-nav.js"></script>
+    <script src="../../js/custom.js"></script>
+
+    <script src="../../js/readable.js"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../js/ie10-viewport-bug-workaround.js"></script>
 
         <!-- Menu Toggle Script -->
-    <script>
-//HAMBURGER script
-$(document).ready(function () {
-  var trigger = $('.hamburger'),
-      overlay = $('.overlay'),
-     isClosed = false;
 
-    trigger.click(function () {
-      hamburger_cross();      
-    });
-
-    function hamburger_cross() {
-
-      if (isClosed == true) {          
-        overlay.hide();
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
-        isClosed = false;
-      } else {   
-        overlay.show();
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
-        isClosed = true;
-      }
-  }
-  
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-  });  
-});
-
-
-$(document).ready(function(){
-	$('a[href^="#"]').on('click',function (e) {
-	    e.preventDefault();
-
-	    var target = this.hash;
-	    var $target = $(target);
-
-	    $('html, body').stop().animate({
-     'scrollTop': $target.offset().top
-}, 900, 'swing');
-	});
-});
-
-
-    </script>
   </body>
 </html>
