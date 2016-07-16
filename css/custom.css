@@ -61,6 +61,27 @@ li.sidebar-brand a {
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .photo-overlay {
+        position: initial;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    #home,
+    #about {
+        height: 100%;
+    }
+    .snippet img {
+        width: 50%;
+        float: left;
+    }
+    #about {
+        margin-bottom: 40px;
+    }
+    .container {
+        max-width: 650px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .photo-overlay {
         position: initial;
