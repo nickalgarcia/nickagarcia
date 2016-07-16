@@ -14,12 +14,19 @@ require_once dirname(__FILE__) . '/footer.php';
 require('./wp-blog-header.php');
 ?>
 
+<div class="container">
 <?php
 $posts = get_posts('numberposts=10&order=ASC&orderby=post_title');
 foreach ($posts as $post) : setup_postdata( $post ); ?>
+
+<div class="row">
+<div class="col-lg-12">
 <?php the_date(); echo "<br />"; ?>
-<?php the_title(); ?>    
+<h1><?php the_title(); ?></h1> 
 <?php the_content(); ?> 
+</div>
+</div>
+</div>
 <?php
 endforeach;
 ?>
