@@ -15,8 +15,6 @@
     <link href="../../css/simple-sidebar.css" rel="stylesheet">
     <link href="../../css/custom.css" rel="stylesheet">
 
-    <link href="../../css/readable.css" rel="stylesheet">
-
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
