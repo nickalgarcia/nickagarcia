@@ -21,8 +21,8 @@ foreach ($posts as $post) : setup_postdata( $post ); ?>
 
 <div class="row">
 <div class="col-lg-12">
-<?php the_date(); echo "<br />"; ?>
 <h1><?php the_title(); ?></h1> 
+<?php the_date(); echo "<br />"; ?>
 <?php the_content(); ?> 
 </div>
 </div>

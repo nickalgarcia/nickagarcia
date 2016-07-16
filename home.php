@@ -13,8 +13,8 @@
                         		<div class="photo-overlay"><h3>Portfolio</h3></div>
                         	</div>
                         	<div class="bottom homepage-back">
-                        		<img src="http://room-decorating-ideas.com/wp-content/uploads/2015/07/lamp-geometric-design-sketch-manufacturer-Indoor-lighting.jpg">
-                        		<div class="photo-overlay"><h3>Blog</h3></div>
+                        		<a href="../../blog/""><img src="http://room-decorating-ideas.com/wp-content/uploads/2015/07/lamp-geometric-design-sketch-manufacturer-Indoor-lighting.jpg">
+                        		<div class="photo-overlay"><h3>Blog</h3></div></a>
                         	</div>
                         </div>
                       	</div>
