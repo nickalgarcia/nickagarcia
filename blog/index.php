@@ -26,7 +26,8 @@ foreach ($posts as $post) : setup_postdata( $post ); ?>
 <?php the_content(); ?> 
 </div>
 </div>
-</div>
+
 <?php
 endforeach;
 ?>
+</div>
