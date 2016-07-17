@@ -80,6 +80,14 @@ li.sidebar-brand a {
     font-family: 'Open Sans', serif;
 }
 
+footer.entry-footer {
+    display: none;
+}
+
+div#jp-relatedposts {
+    display: none;
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
     p {
         font-size: 26px;
