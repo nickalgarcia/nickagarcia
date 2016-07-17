@@ -28,7 +28,7 @@ get_header(); ?>
 				</header>
 			<?php endif; ?>
 
-			<div class="date"><?php the_date(); echo "<br />"; ?></div>
+			<div class="date"><?php get_the_date();  ?></div>
 
 			<?php
 			// Start the loop.
