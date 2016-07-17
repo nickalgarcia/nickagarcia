@@ -98,16 +98,30 @@ nav.navigation.post-navigation {
     display: none;
 }
 
-/*MASONRY*/
-.grid-item {
-  float: left;
-  width: 80px;
-  height: 60px;
-  border: 2px solid hsla(0, 0%, 0%, 0.5);
+
+/*PORTFOLIO*/
+
+.portfolio-title {
+    font-size: 26px;
+    font-family: 'Montserrat', serif;
+    padding: 20px 0 10px;
+    line-height: 26px;
+    font-weight: bold;
 }
 
-.grid-item--width2 { width: 160px; }
-.grid-item--height2 { height: 140px; }
+.portfolio-url {
+    font-size: 12px;
+    font-family: 'Open Sans', serif;
+    font-style: italic;
+}
+
+hr.portfolio-hr {
+    width: 25%;
+    margin-bottom: 0;
+    border-color: #bcbcbc;
+}
+
+/*END PORTFOLIO*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     p {
