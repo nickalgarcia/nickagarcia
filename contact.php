@@ -20,7 +20,7 @@
                   </div>
                 </div>
               </div>
-              <input type="submit" name="submit" value="Submit" class="btn btn-info" />
+              <input type="submit" name="submit" value="Submit" class="btn" />
     	</form>
 		</div>
 	</div>

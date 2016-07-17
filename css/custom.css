@@ -20,6 +20,18 @@ img {
     width: 100%;
 }
 
+.btn {
+    background-color: transparent;
+    color: #8E4C6B;
+    font-family: 'Open Sans', serif;
+    border-color: #8E4C6B;
+}
+
+.btn:hover {
+    background-color: #8E4C6B;
+    color: #fff;
+}
+
 #home,
 #about {
     height: 100vh;
@@ -122,46 +134,50 @@ hr.portfolio-hr {
     border-color: #bcbcbc;
 }
 
-.bmg, .ffa, .heylolly, .honk, .landr, .rachel{
-	background: url(sprites.png) no-repeat;
+.bmg,
+.ffa,
+.heylolly,
+.honk,
+.landr,
+.rachel {
+    background: url(sprites.png) no-repeat;
 }
 
-.bmg{
-	background-position: -450px -700px ;
-	width: 340px;
-	height: 490px;
+.bmg {
+    background-position: -450px -700px;
+    width: 340px;
+    height: 490px;
 }
 
-.ffa{
-	background-position: -900px -700px ;
-	width: 340px;
-	height: 490px;
+.ffa {
+    background-position: -900px -700px;
+    width: 340px;
+    height: 490px;
 }
 
-.heylolly{
-	background-position: 0 -150px ;
-	width: 340px;
-	height: 490px;
+.heylolly {
+    background-position: 0 -150px;
+    width: 340px;
+    height: 490px;
 }
 
-.honk{
-	background-position: -450px -150px ;
-	width: 340px;
-	height: 490px;
+.honk {
+    background-position: -450px -150px;
+    width: 340px;
+    height: 490px;
 }
 
-.landr{
-	background-position: -900px -150px ;
-	width: 340px;
-	height: 490px;
+.landr {
+    background-position: -900px -150px;
+    width: 340px;
+    height: 490px;
 }
 
-.rachel{
-	background-position: 0 -700px ;
-	width: 340px;
-	height: 490px;
+.rachel {
+    background-position: 0 -700px;
+    width: 340px;
+    height: 490px;
 }
-
 
 
 /*END PORTFOLIO*/
