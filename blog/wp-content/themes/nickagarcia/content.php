@@ -31,10 +31,17 @@
 	<div class="entry-content">
 		<?php
 			/* translators: %s: Name of current post */
+			if ( is_single() ) :
+			the_content( sprintf(
+				__( 'Continue reading %s', 'twentyfifteen' ),
+				the_title( '<span class="screen-reader-text">', '</span>', false )
+			) );
+		else : 
 			the_excerpt( sprintf(
 				__( 'Continue reading %s', 'twentyfifteen' ),
 				the_title( '<span class="screen-reader-text">', '</span>', false )
 			) );
+		endif;
 
 			wp_link_pages( array(
 				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentyfifteen' ) . '</span>',
