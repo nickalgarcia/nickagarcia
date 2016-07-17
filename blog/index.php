@@ -22,7 +22,7 @@ foreach ($posts as $post) : setup_postdata( $post ); ?>
 <div class="row">
 <div class="col-lg-12">
 <h1><?php the_title(); ?></h1> 
-<?php the_date(); echo "<br />"; ?>
+<div class="date"><?php the_date(); echo "<br />"; ?></div>
 <?php the_content(); ?> 
 </div>
 </div>
