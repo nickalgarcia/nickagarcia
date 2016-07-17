@@ -26,6 +26,8 @@
 		?>
 	</header><!-- .entry-header -->
 
+				<div class="date"><?php get_the_date();  ?></div>
+
 	<div class="entry-content">
 		<?php
 			/* translators: %s: Name of current post */
