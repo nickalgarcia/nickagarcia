@@ -74,7 +74,9 @@ li.sidebar-brand a {
     margin-bottom: 20px;
 }
 
+
 /*BLOG*/
+
 .date {
     font-size: 12px;
     font-family: 'Open Sans', serif;
@@ -85,6 +87,10 @@ footer.entry-footer {
 }
 
 div#jp-relatedposts {
+    display: none;
+}
+
+nav.navigation.post-navigation {
     display: none;
 }
 
