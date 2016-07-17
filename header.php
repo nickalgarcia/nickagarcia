@@ -55,13 +55,13 @@
                     <a href="../../#about">About Me</a>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="?page=portfolio">Portfolio</a>
                 </li>
                 <li>
                     <a href="../../blog/">Blog</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="?page=contact">Contact</a>
                 </li>
             </ul>
         </nav>
