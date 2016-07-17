@@ -28,6 +28,8 @@ get_header(); ?>
 				</header>
 			<?php endif; ?>
 
+			<div class="date"><?php the_date(); echo "<br />"; ?></div>
+
 			<?php
 			// Start the loop.
 			while ( have_posts() ) : the_post();
