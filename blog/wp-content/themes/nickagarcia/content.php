@@ -26,7 +26,7 @@
 		?>
 	</header><!-- .entry-header -->
 
-				<div class="date"><?php get_the_date();  ?></div>
+				<div class="date"><?php the_date();  ?></div>
 
 	<div class="entry-content">
 		<?php
