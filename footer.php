@@ -9,10 +9,6 @@
     <script>window.jQuery || document.write('<script src="../../js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-    <!-- Masonry Grid -->
-    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.js"></script>
-    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
-
     <script src="../../js/custom.js"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
