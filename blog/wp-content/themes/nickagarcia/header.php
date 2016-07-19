@@ -59,20 +59,20 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="../../">
+                    <a href="../../">Nick Garcia
                     </a>
                 </li>
                 <li>
                     <a href="/#about">About Me</a>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="/?page=portfolio">Portfolio</a>
                 </li>
                 <li>
                     <a href="/blog/">Blog</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="?page=contact">Contact</a>
                 </li>
             </ul>
         </nav>
