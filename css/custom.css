@@ -74,7 +74,12 @@ li.sidebar-brand a {
     top: 40%;
     left: 12%;*/
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 30px;
+    color: #014366;
+}
+
+li.sidebar-brand a:hover {
+    color: #014366;
 }
 
 #about {
