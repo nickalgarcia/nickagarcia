@@ -1,4 +1,4 @@
-<div class="container" id="home">
+<div class="container">
 	<div class="row">
 		<div class="col-lg-12">
 		<h2>Get in touch</h2>

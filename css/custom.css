@@ -20,6 +20,10 @@ img {
     width: 100%;
 }
 
+.container {
+    margin-bottom: 60px;
+}
+
 .btn {
     background-color: transparent;
     color: #8E4C6B;
