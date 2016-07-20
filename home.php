@@ -9,11 +9,11 @@
                         </div>
                         <div class="col-lg-5">
                         	<div class="top homepage-back">
-                        		<img src="http://bashooka.com/wp-content/uploads/2014/06/geometry-design-inspiration-26.jpg">
+                        		<img src="http://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg">
                         		<div class="photo-overlay"><h3>Portfolio</h3></div>
                         	</div>
                         	<div class="bottom homepage-back">
-                        		<a href="../../blog/""><img src="http://room-decorating-ideas.com/wp-content/uploads/2015/07/lamp-geometric-design-sketch-manufacturer-Indoor-lighting.jpg">
+                        		<a href="../../blog/""><img src="http://i.huffpost.com/gen/987952/images/o-KEEPING-A-JOURNAL-facebook.jpg">
                         		<div class="photo-overlay"><h3>Blog</h3></div></a>
                         	</div>
                         </div>
