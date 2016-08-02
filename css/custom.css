@@ -21,9 +21,12 @@ img {
 }
 
 .signature {
-    font-size: 34px;
+    font-size: 170px;
     font-family: 'Homemade Apple', cursive;
     color: #000000;
+    margin: auto;
+    display: block;
+    padding: 200px 0 0 60px;
 }
 
 .container {
