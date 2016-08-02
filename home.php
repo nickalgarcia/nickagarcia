@@ -3,7 +3,7 @@
                     <div class="col-lg-12">
                         <div class="col-lg-7">
                         	<div class="homepage-back">
-                        		<a href="#about"><img src="http://blog.iso50.com/wp-content/uploads/2012/07/IMG_0084.jpg">
+                        		<a href="#about"><img src="/images/about.png">
                         		<div class="photo-overlay"><h3>About Me</h3></div></a>
                         	</div>
                         </div>
