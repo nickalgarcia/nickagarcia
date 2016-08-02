@@ -25,7 +25,7 @@
                     <div class="col-lg-12">
 
                         <div class="snippet">
-                        	<img src="http://blog.iso50.com/wp-content/uploads/2012/07/IMG_0084.jpg">
+                        	<img src="/images/nick.png">
 
 <p>Lorem ipsum dolor sit amet, mea consulatu referrentur eu, mei brute eruditi in. Ne vel rebum alterum feugiat, et corpora honestatis est. Id tale brute omnes nec. Sed ne dicit latine insolens, in laudem persius honestatis vix, populo graecis no mei. Id iudico convenire nam. Erant ocurreret cu his.</p>
 
