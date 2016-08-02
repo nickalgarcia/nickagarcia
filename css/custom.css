@@ -110,6 +110,15 @@ li.sidebar-brand a:hover {
     margin-bottom: 20px;
 }
 
+.resume i {
+    font-size: 55px;
+    color: #ff0000;
+}
+
+.resume span {
+    font-size: 18px;
+    font-weight: 200;
+}
 
 /*BLOG*/
 
