@@ -27,8 +27,11 @@
     <link href="/css/custom.css" rel="stylesheet">
 
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700i|Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -54,22 +57,21 @@
 
 <body>
     <div id="wrapper">
-
+    <h1 class="brand"><a href="../../">Nick Garcia</a></h1>
         <!-- Sidebar -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="../../">Nick Garcia
-                    </a>
+                <li>
+                    <a href="../../">Home</a>
                 </li>
                 <li>
-                    <a href="/#about">About Me</a>
+                    <a href="../../#about">About Me</a>
                 </li>
                 <li>
-                    <a href="/?page=portfolio">Portfolio</a>
+                    <a href="?page=portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="/blog/">Blog</a>
+                    <a href="../../blog/">Blog</a>
                 </li>
                 <li>
                     <a href="?page=contact">Contact</a>
