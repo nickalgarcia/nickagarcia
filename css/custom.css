@@ -215,6 +215,7 @@ hr.portfolio-hr {
     }
     h1.brand {
         font-size: 60px;
+        font-family: 'Josefin Sans', sans-serif;
     }
     .photo-overlay {
         position: initial;
@@ -248,6 +249,7 @@ hr.portfolio-hr {
         background: #fff;
         margin-top: 0;
         padding-top: 20px;
+        font-family: 'Josefin Sans', sans-serif;
     }
     .photo-overlay {
         position: initial;
