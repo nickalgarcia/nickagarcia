@@ -47,7 +47,7 @@
 
 <body>
     <div id="wrapper">
-
+    <h1 class="brand"><a href="../../">Nick Garcia</a></h1>
         <!-- Sidebar -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">

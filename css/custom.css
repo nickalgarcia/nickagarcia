@@ -20,6 +20,12 @@ img {
     width: 100%;
 }
 
+h1.brand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 85px;
+    text-align: center;
+}
+
 .signature {
     font-size: 170px;
     font-family: 'Homemade Apple', cursive;
@@ -105,7 +111,7 @@ li.sidebar-brand a:hover {
     color: #ff0000;
     display: block;
     text-align: center;
-    padding: 20px 0 10px; 
+    padding: 20px 0 10px;
 }
 
 .resume span {
@@ -114,6 +120,7 @@ li.sidebar-brand a:hover {
     display: block;
     text-align: center;
 }
+
 
 /*BLOG*/
 
@@ -210,6 +217,9 @@ hr.portfolio-hr {
     p {
         font-size: 26px;
     }
+    h1.brand {
+        font-size: 60px;
+    }
     .photo-overlay {
         position: initial;
         background: rgba(0, 0, 0, 0.3);
@@ -233,6 +243,15 @@ hr.portfolio-hr {
 @media screen and (max-width: 767px) {
     p {
         font-size: 22px;
+    }
+    h1.brand {
+        font-size: 44px;
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        background: #fff;
+        margin-top: 0;
+        padding-top: 20px;
     }
     .photo-overlay {
         position: initial;
