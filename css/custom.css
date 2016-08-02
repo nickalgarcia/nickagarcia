@@ -214,7 +214,7 @@ hr.portfolio-hr {
     p {
         font-size: 26px;
     }
-    h1.brand a {
+    h1.brand {
         font-size: 60px;
         font-family: 'Josefin Sans', sans-serif;
     }
@@ -242,7 +242,7 @@ hr.portfolio-hr {
     p {
         font-size: 22px;
     }
-    h1.brand a {
+    h1.brand {
         font-size: 44px;
         position: fixed;
         z-index: 999;
