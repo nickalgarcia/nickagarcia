@@ -50,6 +50,7 @@ html { height: 100%;}
 #page-content-wrapper {
     width: 100%;
     padding-top: 70px;
+    margin-bottom: 70px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -63,7 +64,7 @@ html { height: 100%;}
 
 .sidebar-nav {
     position: absolute;
-    top: 0;
+    top: 3%;
     width: 220px;
     margin: 0;
     padding: 0;

@@ -56,10 +56,6 @@ h1.brand {
     height: 100vh;
 }
 
-.mainContent {
-    margin-left: 40px;
-}
-
 .homepage-back {
     position: relative;
 }
@@ -267,9 +263,5 @@ hr.portfolio-hr {
     #home,
     #about {
         height: 100%;
-    }
-    #about {
-        margin-left: 60px;
-        margin-bottom: 40px;
     }
 }
