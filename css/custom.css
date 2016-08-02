@@ -7,7 +7,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -68,7 +68,7 @@ img {
 
 .photo-overlay h3 {
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top {
@@ -76,17 +76,7 @@ img {
 }
 
 li.sidebar-brand a {
-    /*background: url(../../images/sprites.png);
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    position: absolute;
-    width: 250px;
-    height: 36px;
-    padding: 0;
-    top: 40%;
-    left: 12%;*/
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     color: #8E4C6B;
 }
@@ -113,11 +103,16 @@ li.sidebar-brand a:hover {
 .resume i {
     font-size: 55px;
     color: #ff0000;
+    display: block;
+    text-align: center;
+    padding: 20px 0 10px; 
 }
 
 .resume span {
     font-size: 18px;
     font-weight: 200;
+    display: block;
+    text-align: center;
 }
 
 /*BLOG*/
@@ -144,7 +139,7 @@ nav.navigation.post-navigation {
 
 .portfolio-title {
     font-size: 26px;
-    font-family: 'Montserrat', serif;
+    font-family: 'Open Sans', serif;
     padding: 20px 0 10px;
     line-height: 26px;
     font-weight: bold;

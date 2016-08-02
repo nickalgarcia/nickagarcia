@@ -17,7 +17,7 @@
     <link href="../../css/custom.css" rel="stylesheet">
 
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700i|Open+Sans:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
@@ -51,9 +51,8 @@
         <!-- Sidebar -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="../../">Nick Garcia<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-                    </a>
+                <li>
+                    <a href="../../">Home</a>
                 </li>
                 <li>
                     <a href="../../#about">About Me</a>
