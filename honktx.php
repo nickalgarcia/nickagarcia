@@ -3,8 +3,8 @@
 		<div class="col-lg-12">
 		<img src="/images/portfolio/honk1.png">
 		<h2>HONK!TX</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit maxime illo quis iusto obcaecati ipsum optio enim cupiditate ex temporibus possimus nobis, autem quaerat aut eaque vero tempore pariatur deserunt.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nostrum cupiditate cum doloribus tempora nisi, nobis vel quod, consectetur, maxime tenetur. Expedita nisi cupiditate, quod fugit itaque voluptates optio veritatis?</p>
+		<p>HONK!TX is a nonprofit, community-driven festival that brings street and brass bands from around the country to perform for free in the public spaces of Austin, Texas. Mobile and unamplified, HONK! bands transform everyday locations into spontaneous stages, dissolving the line between crowd and performers and inviting everyone to celebrate the joys of music and community.</p>
+		<p>This is another project that I worked on with Kara from <a href="http://cmykara.com" target="_blank">cmykara.com</a>. Kara delivered designs for the site and I made recommendations on how to modify elements to work seamlessly in Wordpress for the client to maintain. This is one of the projects that I am most proud of having worked on. The design is bold and perfectly displays the atmosphere of a HONK!TX event.</p>
 		<img src="/images/portfolio/honk2.png">
 		</div>
 	</div>
