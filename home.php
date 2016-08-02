@@ -9,8 +9,8 @@
                         </div>
                         <div class="col-lg-5">
                         	<div class="top homepage-back">
-                        		<img src="http://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg">
-                        		<div class="photo-overlay"><h3>Portfolio</h3></div>
+                        		<a href="?page=portfolio"><img src="http://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg">
+                        		<div class="photo-overlay"><h3>Portfolio</h3></div></a>
                         	</div>
                         	<div class="bottom homepage-back">
                         		<a href="../../blog/""><img src="http://i.huffpost.com/gen/987952/images/o-KEEPING-A-JOURNAL-facebook.jpg">
