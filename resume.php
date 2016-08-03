@@ -28,6 +28,7 @@
 			<div class="education">Bachelor of Music - Music Marketing <span>University of Texas at San Antonio</span></div>
 			<hr>
 			<div class="skills">
+				<h2>Skills</h2>
 				<ul>
 				<li>HTML</li>
 				<li>CSS</li>
