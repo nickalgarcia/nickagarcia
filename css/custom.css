@@ -162,51 +162,27 @@ hr.portfolio-hr {
     border-color: #bcbcbc;
 }
 
-.bmg,
-.ffa,
-.heylolly,
-.honk,
-.landr,
-.rachel {
-    background: url(sprites.png) no-repeat;
+.portfolio p {
+    font-size: 14px;
+    color: #848B91;
 }
 
-.bmg {
-    background-position: -450px -700px;
-    width: 340px;
-    height: 490px;
+.portfolio h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
-.ffa {
-    background-position: -900px -700px;
-    width: 340px;
-    height: 490px;
+h2.title {
+    font-size: 55px;
+    font-weight: 600;
+    color: #33384A;
 }
 
-.heylolly {
-    background-position: 0 -150px;
-    width: 340px;
-    height: 490px;
+.portfolio {
+    margin: 40px 0;
 }
-
-.honk {
-    background-position: -450px -150px;
-    width: 340px;
-    height: 490px;
-}
-
-.landr {
-    background-position: -900px -150px;
-    width: 340px;
-    height: 490px;
-}
-
-.rachel {
-    background-position: 0 -700px;
-    width: 340px;
-    height: 490px;
-}
-
 
 /*END PORTFOLIO*/
 
