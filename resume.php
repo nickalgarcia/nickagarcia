@@ -44,3 +44,7 @@
 		</div>
 	</div>
 </div>
+
+<?php
+basename(($_GET['page'] : 'portfolio') . '.php');
+?>
