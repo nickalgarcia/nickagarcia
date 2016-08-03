@@ -46,5 +46,5 @@
 </div>
 
 <?php
-basename(($_GET['page'] : 'portfolio') . '.php');
+include 'portfolio.php';
 ?>
