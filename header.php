@@ -77,3 +77,24 @@
     			<span class="hamb-middle"></span>
 				<span class="hamb-bottom"></span>
             </button>
+
+          <?php
+          $homepage = "/home.php";
+          $currentpage = $_SERVER['REQUEST_URI'];
+					$page = $_SERVER['REQUEST_URI']; 
+					$page = str_replace('/', '', $page); 
+					$page = str_replace('.php', '', $page); 
+					$page = str_replace('?s=', '', $page); 
+					$page = $page ? $page : 'default';
+					if($homepage==$currentpage) {
+          $container = 'container-fluid mainContent';
+					}
+					else {
+					$container = 'container';
+					}
+					?>
+					<div class="<?php echo $container ?>" id="<?php echo $page ?>">
+					<div class="row">
+                    <div class="col-lg-12">
+
+				
