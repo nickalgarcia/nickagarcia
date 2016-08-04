@@ -245,14 +245,9 @@ ul.work-details {
     text-align: left;
 }
 
-ul.skills-list {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.skills-list li {
+.resume p {
     padding-bottom: 5px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 200;
 }
 

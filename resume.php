@@ -20,18 +20,18 @@
 			<h2>Education</h2>
 			<div class="education">Master of Business Administration - Marketing <span>Our Lady of the Lake University</span></div>
 			<div class="education">Bachelor of Music - Music Marketing <span>University of Texas at San Antonio</span></div>
-			<hr>
+			<hr class="portfolio-hr">
 			<div class="skills">
 				<h2>Skills</h2>
 				<ul class="skills-list">
-				<li>HTML</li>
-				<li>CSS</li>
+				<li>HTML/CSS</li>
 				<li>jQuery</li>
 				<li>Javascript</li>
-				<li>Wordpress Development</li>
+				<li>PHP/Wordpress Development</li>
 				<li>Github</li>
 				<li>Less</li>
 				<li>Grunt</li>
+				<li>Responsive Email</li>
 				</ul>
 			</div>
 		</div>
