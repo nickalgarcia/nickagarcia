@@ -1,8 +1,6 @@
-
 		<img src="/images/portfolio/hey-lolly1.png">
 		<div class="portfolio">
-			<h2 class="title">
-		<h2>Hey Lolly Music</h2>
+			<h2 class="title">Hey Lolly Music</h2>
 		<div class="row">
 					<div class="col-lg-6">
 						<h4>About the Client</h4>
@@ -10,7 +8,7 @@
 		</div>
 					<div class="col-lg-6">
 						<h4>Details</h4>
-		<p>A single page website seemed most appropriate for Hey Lolly Music.</p>
+		<p>A single page website seemed most appropriate for Hey Lolly Music. After speaking with Laura, we found out that most of the people that view he sites are moms looking for information. Rather than having them click through multiple pages, presenting all of the info in one place while still providing a great user experience seemed the best choice. The website is built through Wordpress using custom functionality.</p>
 		</div>
 				</div>
 			</div>

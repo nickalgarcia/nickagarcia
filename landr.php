@@ -1,4 +1,3 @@
-
 		<img src="/images/portfolio/landr1.png">
 		<div class="portfolio">
 			<h2 class="title">L & R Signs</h2>

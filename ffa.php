@@ -1,4 +1,3 @@
-
 		<img src="/images/portfolio/ffa1.png">
 		<div class="portfolio">
 			<h2 class="title">Fund for Animals</h2>
