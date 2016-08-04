@@ -79,7 +79,7 @@
             </button>
 
           <?php
-          $homepage = "/home.php";
+          $homepage = "/";
           $currentpage = $_SERVER['REQUEST_URI'];
 					$page = $_SERVER['REQUEST_URI']; 
 					$page = str_replace('/', '', $page); 
