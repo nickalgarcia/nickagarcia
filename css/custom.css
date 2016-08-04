@@ -255,6 +255,11 @@ ul.work-details {
     text-decoration: none;
 }
 
+ul.skills-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 
 /*END RESUME*/
 
