@@ -1,6 +1,6 @@
 		<img src="/images/portfolio/ffa1.png">
 		<div class="portfolio">
-			<h2 class="title">Fund for Animals</h2>
+			<h2 class="title">The Fund for Animals</h2>
 				<div class="row">
 					<div class="col-lg-6">
 						<h4>About the Client</h4>
