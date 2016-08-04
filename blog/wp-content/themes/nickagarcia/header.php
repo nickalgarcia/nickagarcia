@@ -27,7 +27,7 @@
     <link href="/css/custom.css" rel="stylesheet">
 
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700i|Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Open+Sans:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
@@ -62,19 +62,19 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
                 <li>
-                    <a href="../../">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="../../#about">About Me</a>
+                    <a href="/#about">About Me</a>
                 </li>
                 <li>
-                    <a href="?page=portfolio">Portfolio</a>
+                    <a href="/?page=portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="../../blog/">Blog</a>
+                    <a href="/blog">Blog</a>
                 </li>
                 <li>
-                    <a href="?page=contact">Contact</a>
+                    <a href="/?page=contact">Contact</a>
                 </li>
             </ul>
         </nav>
