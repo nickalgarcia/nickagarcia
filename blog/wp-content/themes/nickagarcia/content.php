@@ -14,7 +14,7 @@
 			if ( is_single() ) :
 
 			else :
-				'<div class="col-lg-6">'
+				'<div class="col-lg-6">';
 			endif;
 		?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -79,6 +79,6 @@
 			if ( is_single() ) :
 
 			else :
-				'</div>'
+				'</div>';
 			endif;
 		?>
