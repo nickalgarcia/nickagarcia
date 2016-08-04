@@ -127,6 +127,13 @@ li.sidebar-brand a:hover {
 
 /*BLOG*/
 
+#blog .col-lg-6 {
+    width: 49%;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
 .date {
     font-size: 12px;
     font-family: 'Open Sans', serif;
@@ -282,6 +289,12 @@ ul.skills-list {
     .container {
         max-width: 650px;
     }
+    /*BLOG*/
+    #blog .col-lg-6 {
+        width: 100%;
+        display: block;
+        float: none;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -312,5 +325,11 @@ ul.skills-list {
     #home,
     #about {
         height: 100%;
+    }
+    /*BLOG*/
+    #blog .col-lg-6 {
+        width: 100%;
+        display: block;
+        float: none;
     }
 }
