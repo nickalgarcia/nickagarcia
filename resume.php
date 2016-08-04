@@ -6,21 +6,15 @@
 			<div class="work-title">Web Developer</div>
 			<div class="work-employer">Blackbaud</div>
 			<div class="work-dates">December 2014 - Present</div>
-			<ul class="work-details">
-				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut saepe libero reprehenderit quia facere quos natus vitae voluptatibus quisquam aperiam laboriosam at, eum laudantium, debitis autem animi qui veniam iure?</li>
-			</ul>
+			<p>Front-end development for multiple clients such as Make-A-Wish, Feeding America, and Humane Society. Through the company platform of Luminate Online, I worked on complete site redesigns, API donation forms, and product customizations using HTML, CSS, and jQuery.</p>
 			<div class="work-title">Web Content Manager</div>
 			<div class="work-employer">Special Olympics Texas</div>
 			<div class="work-dates">April 2013 - December 2014</div>
-			<ul class="work-details">
-				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut saepe libero reprehenderit quia facere quos natus vitae voluptatibus quisquam aperiam laboriosam at, eum laudantium, debitis autem animi qui veniam iure?</li>
-			</ul>
+			<p>Complete site redesign to make responsive through the Luminate Online platform and CMS. As well as front-end development, improved SEO and increased online donations over 50% from the previous year.</p>
 			<div class="work-title">Interactive Marketing Specialist</div>
 			<div class="work-employer">SeaWorld San Antonio</div>
 			<div class="work-dates">March 2012 - April 2013</div>
-			<ul class="work-details">
-				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut saepe libero reprehenderit quia facere quos natus vitae voluptatibus quisquam aperiam laboriosam at, eum laudantium, debitis autem animi qui veniam iure?</li>
-			</ul>
+			<p>Managed online content for desktop, mobile, and Spanish sites through Sitecore CMS. Designed and coded monthly enewsletters. Track online revenue through internal reports and Google Analytics.</p>
 		</div>
 		<div class="col-lg-4">
 			<h2>Education</h2>
