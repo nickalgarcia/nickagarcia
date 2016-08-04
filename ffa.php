@@ -8,7 +8,7 @@
 					</div>
 					<div class="col-lg-6">
 						<h4>Details</h4>
-						<p>Fund for the Animals is an affiliate site of the Humane Society. This project was a complete responsive redesign. Their site already lived in the Luminate Online CMS so the project consisted of creating a new wrapper, content types, display templates, and conditionals for content throughout the site. I used the Bootstrap framework to match the design the client sent.</p>
+						<p>The Fund for the Animals is an affiliate site of the Humane Society. This project was a complete responsive redesign. Their site already lived in the Luminate Online CMS so the project consisted of creating a new wrapper, content types, display templates, and conditionals for content throughout the site. I used the Bootstrap framework to match the design the client sent.</p>
 					</div>
 				</div>
 			</div>
