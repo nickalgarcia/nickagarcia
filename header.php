@@ -84,8 +84,8 @@
 					$page = $_SERVER['REQUEST_URI']; 
 					$page = str_replace('/', '', $page); 
 					$page = str_replace('.php', '', $page); 
-					$page = str_replace('?s=', '', $page); 
-					$page = $page ? $page : 'default';
+					$page = str_replace('?page=', '', $page); 
+					$page = $page ? $page : 'home';
 					if($homepage==$currentpage) {
           $container = 'container-fluid mainContent';
 					}
