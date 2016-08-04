@@ -249,6 +249,10 @@ ul.skills-list {
     font-weight: 200;
 }
 
+.resume a:hover {
+    text-decoration: none;
+}
+
 
 /*END RESUME*/
 
