@@ -1,7 +1,6 @@
 
 		<h2>Get in touch</h2>
-		<p>Send us a message using the form below, or email us</p>
-		<p class="email"><a href="mailto:nick.agarcia103@gmail.com">nick.agarcia103@gmail.com</a></p>
+		<p>Send me a message using the form below, or email me at <a href="mailto:nick.agarcia103@gmail.com">nick.agarcia103@gmail.com</a></p>
 			<form method="post" action="../../contact-form/contactengine.php">
       	<div class="row">
         	<div class="col-md-6">
