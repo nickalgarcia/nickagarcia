@@ -1,6 +1,6 @@
 <img src="/images/portfolio/rachel1.png">
 	<div class="portfolio">
-	<h2 class="title">Hey Lolly Music</h2>
+	<h2 class="title">Rachel Barkley Music</h2>
 		<div class="row">
 			<div class="col-lg-6">
 				<h4>About the Client</h4>
