@@ -1,6 +1,4 @@
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12">
+
 		<img src="/images/portfolio/hey-lolly1.png">
 		<div class="portfolio">
 			<h2 class="title">
@@ -17,6 +15,3 @@
 				</div>
 			</div>
 		<img src="/images/portfolio/hey-lolly2.png">
-		</div>
-	</div>
-</div>

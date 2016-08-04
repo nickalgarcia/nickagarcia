@@ -1,6 +1,4 @@
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12">
+
 		<img src="/images/portfolio/honk1.png">
 			<div class="portfolio">
 			<h2 class="title">HONK!TX</h2>
@@ -16,6 +14,3 @@
 				</div>
 			</div>
 		<img src="/images/portfolio/honk2.png">
-		</div>
-	</div>
-</div>

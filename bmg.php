@@ -1,6 +1,4 @@
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12">
+
 		<img src="/images/portfolio/bmg.png">
 		<div class="portfolio">
 			<h2 class="title">Bell Media Group</h2>
@@ -15,6 +13,3 @@
 		</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
