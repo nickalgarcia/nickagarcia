@@ -203,7 +203,7 @@ h2.title {
 
 /* RESUME */
 
-.resume h2 {
+#resume h2 {
     text-transform: uppercase;
     font-size: 34px;
     font-weight: 200;
@@ -245,13 +245,13 @@ ul.work-details {
     text-align: left;
 }
 
-.resume p {
+#resume p {
     padding-bottom: 5px;
     font-size: 14px;
     font-weight: 200;
 }
 
-.resume a:hover {
+#resume a:hover {
     text-decoration: none;
 }
 

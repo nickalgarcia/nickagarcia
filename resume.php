@@ -1,7 +1,5 @@
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 resume">
-		<div class="col-lg-8">
+<div class="row">
+	<div class="col-lg-6">
 			<h2>Work Experience</h2>
 			<div class="work-title">Web Developer</div>
 			<div class="work-employer">Blackbaud</div>
@@ -16,7 +14,7 @@
 			<div class="work-dates">March 2012 - April 2013</div>
 			<p>Managed online content for desktop, mobile, and Spanish sites through Sitecore CMS. Designed and coded monthly enewsletters. Track online revenue through internal reports and Google Analytics.</p>
 		</div>
-		<div class="col-lg-4">
+		<div class="col-lg-5 col-lg-offset-1">
 			<h2>Education</h2>
 			<div class="education">Master of Business Administration - Marketing <span>Our Lady of the Lake University</span></div>
 			<div class="education">Bachelor of Music - Music Marketing <span>University of Texas at San Antonio</span></div>
@@ -35,10 +33,9 @@
 				</ul>
 			</div>
 		</div>
-		<h2>Portfolio</h2>
-		</div>
-	</div>
+	<h2>Portfolio</h2>
 </div>
+
 
 <?php
 include 'portfolio.php';
