@@ -1,3 +1,4 @@
+<div class="row">
 <div id="about">
 	<div class="snippet">
 		<img src="/images/nick.png">
@@ -5,4 +6,5 @@
 		<p>For more of my work experience and qualifications, click below to download my resume.</p>
 		<div class="resume"><a href="?page=resume"><i class="fa fa-file-text-o"></i><span>View Resume</span></a></div>
 	</div>
+</div>
 </div>
