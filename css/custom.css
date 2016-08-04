@@ -329,6 +329,8 @@ ul.skills-list {
     #home,
     #about {
         height: 100%;
+        width: 100%;
+        padding: 0 15px;
     }
     /*BLOG*/
     #blog .col-lg-6 {
