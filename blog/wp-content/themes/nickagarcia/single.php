@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<div class="container">
+<div class="container" id="blog">
 	<div class="row">
 		<div class="col-lg-12">
 
