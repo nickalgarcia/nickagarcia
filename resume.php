@@ -33,8 +33,9 @@
 				</ul>
 			</div>
 		</div>
+	</div>
 	<h2>Portfolio</h2>
-</div>
+
 
 
 <?php
