@@ -2,6 +2,10 @@ a {
     color: #014366;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
