@@ -15,6 +15,22 @@
 					<div class="portfolio-url"><a href="http://honktx.org/">honktx.org</a></div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6">
+				<a href="?page=wish">
+					<img src="../../images/wish.png">
+					<hr class="portfolio-hr">
+					<div class="portfolio-title">Make-A-Wish</div>
+				</a>
+					<div class="portfolio-url"><a href="https://secure2.wish.org/site/SPageServer?pagename=donate_now&chid=100-000">wish.org/donate</a></div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6">
+				<a href="?page=fa">
+					<img src="../../images/gam.png">
+					<hr class="portfolio-hr">
+					<div class="portfolio-title">Feeding America</div>
+				</a>
+					<div class="portfolio-url"><a href="http://www.feedingamerica.org/take-action/campaigns/gam/">feedingamerica.org/giveameal</a></div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6">
 				<a href="?page=ffa">
 					<img src="../../images/ffa.png">
 					<hr class="portfolio-hr">
