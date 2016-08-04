@@ -1,13 +1,13 @@
 
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-4">
+				<div class="col-lg-3 col-md-3 col-sm-6">
 				<a href="?page=heylolly"><img src="../../images/heylolly.png">
 					<hr class="portfolio-hr">
 					<div class="portfolio-title">Hey Lolly Music</div>
 				</a>
 					<div class="portfolio-url"><a href="http://heylollymusic.com/">heylollymusic.com</a></div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-4">
+				<div class="col-lg-3 col-md-3 col-sm-6">
 				<a href="?page=honktx">
 					<img src="../../images/honk.png">
 					<hr class="portfolio-hr">
@@ -15,7 +15,7 @@
 				</a>
 					<div class="portfolio-url"><a href="http://honktx.org/">honktx.org</a></div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-4">
+				<div class="col-lg-3 col-md-3 col-sm-6">
 				<a href="?page=landr">
 					<img src="../../images/landr.png">
 					<hr class="portfolio-hr">
@@ -23,7 +23,7 @@
 				</a>
 					<div class="portfolio-url"><a href="http://landrsigns.com/">landrsigns.com</a></div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-4">
+				<div class="col-lg-3 col-md-3 col-sm-6">
 				<a href="?page=bmg">
 					<img src="../../images/bmg.png">	
 					<hr class="portfolio-hr">
@@ -31,7 +31,7 @@
 				</a>
 					<div class="portfolio-url"><a href="http://bellmediagroup.net/">bellmediagroup.net</a></div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-4">
+				<div class="col-lg-3 col-md-3 col-sm-6">
 				<a href="?page=rachel">
 					<img src="../../images/rachel.png">
 					<hr class="portfolio-hr">
@@ -39,7 +39,7 @@
 				</a>
 					<div class="portfolio-url"><a href="http://rachelbarkley.com/">rachelbarkley.com</a></div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-4">
+				<div class="col-lg-3 col-md-3 col-sm-6">
 				<a href="?page=ffa">
 					<img src="../../images/ffa.png">
 					<hr class="portfolio-hr">
