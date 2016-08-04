@@ -10,6 +10,13 @@
  */
 ?>
 
+<?php
+			if ( is_single() ) :
+
+			else :
+				'<div class="col-lg-6">'
+			endif;
+		?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
 		// Post thumbnail.
@@ -67,3 +74,11 @@
 	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->
+
+<?php
+			if ( is_single() ) :
+
+			else :
+				'</div>'
+			endif;
+		?>
