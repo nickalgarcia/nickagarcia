@@ -269,6 +269,12 @@ ul.skills-list {
 
 /*END RESUME*/
 
+@media screen and (min-width: 1200px) {
+  #home {
+    margin-top: -70px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
     p {
         font-size: 26px;
