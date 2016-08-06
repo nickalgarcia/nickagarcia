@@ -283,10 +283,6 @@ ul.skills-list {
         font-size: 60px;
         font-family: 'Josefin Sans', sans-serif;
     }
-    .photo-overlay {
-        position: initial;
-        background: rgba(0, 0, 0, 0.3);
-    }
     #home,
     #about {
         height: 100%;
@@ -326,8 +322,12 @@ ul.skills-list {
         font-family: 'Josefin Sans', sans-serif;
     }
     .photo-overlay {
-        position: initial;
-        background: rgba(0, 0, 0, 0.3);
+        position: static;
+        background: transparent;
+        padding: 0 15px 5px;
+    }
+    .photo-overlay h3 {
+        color: #000;
     }
     .top {
         margin: 20px 0;
