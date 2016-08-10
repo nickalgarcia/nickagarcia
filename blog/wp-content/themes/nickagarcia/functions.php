@@ -102,6 +102,12 @@ function nickagarcia_setup() {
 	add_theme_support( 'post-formats', array(
 		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
 	) );
+	
+	add_filter( 'embed_oembed_html', 'tdd_oembed_filter', 10, 4 ) ; 
+	function tdd_oembed_filter($html, $url, $attr, $post_ID) {
+    $return = '<div class="embed-responsive embed-responsive-16by9">'.$html.'</div>';
+    return $return;
+	}
 
 	/*
 	 * Enable support for custom logo.
