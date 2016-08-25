@@ -43,3 +43,23 @@ $(document).ready(function(){
 	});
 });
 
+
+//Hide Header on Scroll
+
+(function() {
+    var header = document.querySelector(".brand");
+
+    if(window.location.hash) {
+      header.classList.add("headroom--unpinned");
+    }
+
+    var headroom = new Headroom(header, {
+        tolerance: {
+          down : 10,
+          up : 100
+        },
+        offset : 205
+    });
+    headroom.init();
+
+}());
