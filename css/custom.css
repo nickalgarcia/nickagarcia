@@ -30,6 +30,13 @@ h1.brand {
     text-align: center;
 }
 
+#about h2 {
+    font-size: 45px;
+    padding-top: 20%;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
 .signature {
     font-size: 170px;
     font-family: 'Homemade Apple', cursive;
