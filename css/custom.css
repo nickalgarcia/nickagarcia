@@ -32,9 +32,8 @@ h1.brand {
 
 #about h2 {
     font-size: 45px;
-    padding-top: 20%;
     text-transform: uppercase;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .signature {
@@ -294,6 +293,9 @@ ul.skills-list {
         font-size: 60px;
         font-family: 'Josefin Sans', sans-serif;
     }
+    #about h2 {
+        padding-top: 10%;
+    }
     #home,
     #about {
         height: 100%;
@@ -319,22 +321,20 @@ ul.skills-list {
 }
 
 @media screen and (max-width: 767px) {
-
     /**
  * Note: I have omitted any vendor-prefixes for clarity.
  * Adding them is left as an exercise for the reader.
  */
-.headroom {
-    will-change: transform;
-    transition: transform 200ms linear;
-}
-.headroom--pinned {
-    transform: translateY(0%);
-}
-.headroom--unpinned {
-    transform: translateY(-100%);
-}
-
+    .headroom {
+        will-change: transform;
+        transition: transform 200ms linear;
+    }
+    .headroom--pinned {
+        transform: translateY(0%);
+    }
+    .headroom--unpinned {
+        transform: translateY(-100%);
+    }
     p {
         font-size: 22px;
     }
@@ -351,6 +351,9 @@ ul.skills-list {
         margin-top: 0;
         padding-top: 20px;
         font-family: 'Josefin Sans', sans-serif;
+    }
+    #about h2 {
+        padding-top: 20%;
     }
     .photo-overlay {
         position: static;
