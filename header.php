@@ -43,6 +43,8 @@
   ga('send', 'pageview');
 
 </script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
 </head>
 
 <body>
@@ -58,13 +60,13 @@
                     <a href="../../#about">About Me</a>
                 </li>
                 <li>
-                    <a href="?page=portfolio">Portfolio</a>
+                    <a href="../../portfolio">Portfolio</a>
                 </li>
                 <li>
                     <a href="../../blog/">Blog</a>
                 </li>
                 <li>
-                    <a href="?page=contact">Contact</a>
+                    <a href="../../contact">Contact</a>
                 </li>
             </ul>
         </nav>

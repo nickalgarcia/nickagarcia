@@ -23,12 +23,12 @@
 					<div class="portfolio-url"><a href="https://secure2.wish.org/site/SPageServer?pagename=donate_now&chid=100-000">wish.org/donate</a></div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6">
-				<a href="?page=gam">
+				<a href="?page=feedingamerica">
 					<img src="../../images/gam.png">
 					<hr class="portfolio-hr">
 					<div class="portfolio-title">Feeding America</div>
 				</a>
-					<div class="portfolio-url"><a href="http://www.feedingamerica.org/take-action/campaigns/gam/">feedingamerica.org/giveameal</a></div>
+					<div class="portfolio-url"><a href="http://www.feedingamerica.org/hunger-in-america/">feedingamerica.org/hunger-in-america</a></div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6">
 				<a href="?page=ffa">
