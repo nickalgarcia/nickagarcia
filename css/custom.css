@@ -99,7 +99,7 @@ h1.brand {
     font-size: 27px;
     color: #fff;
     opacity: 1;
-    top: 5%;
+    top: 15%;
 }
 
 #home,
@@ -749,10 +749,11 @@ img.play-icon {
 }
 
 .fullscreen .modal-body ul {
-        padding: 100px 0 0;
+    padding: 50px 0 50px;
     width: 50%;
-    margin: auto;
+    margin: 90px auto;
     background: #0275b2;
+    list-style-type: none;
 }
 
 .fullscreen .modal-body li {

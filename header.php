@@ -71,7 +71,7 @@
             <div class="modal-content">
                 <div class="modal-body text-center">
                 <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true">X</button>
-                    <ul style="list-style-type:none;">
+                    <ul>
                         <li><a href="../../">Home</a></li>
                         <li><a href="../../#about">About Me</a></li>
                         <li><a href="../../portfolio">Portfolio</a></li>
