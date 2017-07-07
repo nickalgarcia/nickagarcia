@@ -28,6 +28,17 @@
 </div>
 
 </section>
+<div class="main-content">
+<section class="share">
+	<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+	<div class="addthis_inline_share_toolbox"></div>
+</section>
+<section class="story">
+	<div class="story-content">
+	<p>Together, our team is walking to help JDRF continue to fund life-changing type 1 diabetes (T1D) research and create a world without T1D. T1D is an autoimmune disease in which a person’s pancreas stops producing insulin—a hormone essential to turning food into energy. It strikes both children and adults and is unrelated to diet and lifestyle. With T1D there are no days off, and there is no cure—yet. Your support can help change that.</p>
+	</div>
+</section>
+</div>
 
 <style>
 .hero {
@@ -132,6 +143,17 @@
 .hero-button {
     text-align: center;
 }
+
+.share {
+    margin-bottom: 20px;
+}
+
+.story-content {
+    padding: 40px 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #f6f6f6;
+}
 @media screen and (min-width: 992px) {
 .hero-content {
     float: right;
@@ -140,6 +162,10 @@
 .hero-image {
     float: right;
     width: 50%;
+}
+.story {
+    margin-right: 0;
+    margin-left: 0;
 }
 }
 
