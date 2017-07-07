@@ -51,6 +51,7 @@
 
 <body>
     <div id="wrapper">
+     <button type="button" class="btn-menu navbar-toggle collapsed" data-toggle="modal" data-target="#menuModal">MENU</button>
     <h1 class="brand"><a href="../../">Nick Garcia</a></h1>
         <!-- Sidebar -->
         <!--<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
@@ -67,12 +68,9 @@
         <!-- FULLSCREEN MODAL CODE (.fullscreen) -->
     <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content" style="color:#fff;">
-                <div class="modal-header" style="border:0;">
-                        <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg" style="color:#999;"></i></button> 
-                        <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
-                </div>
+            <div class="modal-content">
                 <div class="modal-body text-center">
+                <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true">X</button>
                     <ul style="list-style-type:none;">
                         <li><a href="../../">Home</a></li>
                         <li><a href="../../#about">About Me</a></li>
@@ -92,7 +90,6 @@
     			<span class="hamb-middle"></span>
 				<span class="hamb-bottom"></span>
             </button>-->
-            <button type="button" class="btn btn-link navbar-toggle collapsed" data-toggle="modal" data-target="#menuModal">MENU</button>
 
 
           <?php
