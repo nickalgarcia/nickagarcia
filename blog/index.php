@@ -10,9 +10,9 @@ require_once dirname(__FILE__) . '../../header.php';
 require_once dirname(__FILE__) . '../../footer.php';
 ?>
 
-<!--<?php
+<?php
 //require('./wp-blog-header.php');
-?>-->
+?>
 
 
 
