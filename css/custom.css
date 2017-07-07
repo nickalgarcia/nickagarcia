@@ -50,10 +50,34 @@ h1.brand {
 }
 
 .btn {
-    background-color: transparent;
-    color: #8E4C6B;
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #0275b2;
+    background-image: none;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border-radius: 0;
+    padding: 0 60px;
+    line-height: 50px;
+    font-size: 16px;
     font-family: 'Open Sans', serif;
-    border-color: #8E4C6B;
 }
 
 .btn:hover {
@@ -275,10 +299,14 @@ ul.skills-list {
 
 /*END RESUME*/
 
-input[type="text"], input[type="email"], input[type="tel"], input[type="password"], #contact textarea {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+#contact textarea {
     display: block;
     vertical-align: top;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #777;
     font-size: 16px;
     font-weight: 200;
@@ -301,10 +329,23 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     height: 120px;
 }
 
-.succMsg{ color:#009755 ; font-size: 15px;font-weight: bold;padding-top: 15px;}
-.errMsg{ color:#fb4314 ; font-size: 15px;font-weight: bold;padding-top: 15px;}
-.g-recaptcha {margin: 15px 0;}
+.succMsg {
+    color: #009755;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+}
 
+.errMsg {
+    color: #fb4314;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.g-recaptcha {
+    margin: 15px 0;
+}
 
 #playlist .latest-video {
     float: left;
@@ -358,7 +399,6 @@ img.play-icon {
 #post-42 .embed-responsive {
     clear: left;
 }
-
 
 @media screen and (min-width: 1200px) {
     #home {
@@ -467,24 +507,23 @@ img.play-icon {
         display: block;
         float: none;
     }
-    #playlist .latest-video, #playlist .sidebar {
-    float: none;
-    width: 100%;
-    display: block;
-    margin: 30px auto;
-}
-
-#playlist .all-videos {
-    width: 49%;
-    float: left;
-}
-
-#playlist .all-videos:nth-child(odd) {
-    margin-right: 2%;
-}
-.nick-fourth {
-    width: 100%;
-    float: none;
-    margin: auto;
-}
+    #playlist .latest-video,
+    #playlist .sidebar {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 30px auto;
+    }
+    #playlist .all-videos {
+        width: 49%;
+        float: left;
+    }
+    #playlist .all-videos:nth-child(odd) {
+        margin-right: 2%;
+    }
+    .nick-fourth {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
 }
