@@ -11,7 +11,7 @@ require_once dirname(__FILE__) . '../../footer.php';
 ?>
 
 <?php
-//require('./wp-blog-header.php');
+require('./wp-blog-header.php');
 ?>
 
 
