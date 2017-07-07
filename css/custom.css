@@ -81,6 +81,27 @@ h1.brand {
     letter-spacing: 2px;
 }
 
+.btn-menu {
+    display: block;
+    position: absolute;
+    left: 9%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    top: 4%;
+    font-size: 18px;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+#menuModal button.close {
+    position: absolute;
+    right: 27%;
+    font-size: 27px;
+    color: #fff;
+    opacity: 1;
+    top: 5%;
+}
+
 #home,
 #about {
     height: 100vh;
@@ -728,7 +749,10 @@ img.play-icon {
 }
 
 .fullscreen .modal-body ul {
-    padding: 100px 0 0 0;
+        padding: 100px 0 0;
+    width: 50%;
+    margin: auto;
+    background: #0275b2;
 }
 
 .fullscreen .modal-body li {
@@ -736,8 +760,10 @@ img.play-icon {
 }
 
 .fullscreen .modal-body a {
-    color: #333;
+    color: #fff;
     font-size: 300%;
+    font-family: 'Josefin Sans',sans-serif;
+    text-transform: uppercase;
 }
 
 @media (max-width: 480px) {
