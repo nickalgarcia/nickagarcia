@@ -396,7 +396,9 @@ img.play-icon {
     clear: left;
 }
 
+
 /*FUNDRAISE*/
+
 .hero {
     position: relative;
     margin: 0 -15px 30px -15px;
@@ -518,7 +520,7 @@ img.play-icon {
 
 .share-title {
     color: #a9a9a9;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     display: inline-block;
     vertical-align: middle;
@@ -537,6 +539,8 @@ img.play-icon {
     display: block;
     clear: both;
 }
+
+
 /*END FUNDRAISE*/
 
 @media screen and (min-width: 1200px) {
@@ -544,6 +548,7 @@ img.play-icon {
         margin-top: -70px;
     }
 }
+
 @media screen and (min-width: 992px) {
     .hero-content {
         float: right;
@@ -690,11 +695,63 @@ img.play-icon {
         text-align: center;
     }
 }
+
 @media (min-width: 38em) {
     .fundraising-progress_label {
         font-size: 1em;
     }
     .fundraising-progress_numbers {
         font-size: 32px;
+    }
+}
+
+
+/* FULL SCREEN MODAL STYLES
+    -------------------------------------------------- */
+
+.fullscreen .modal-dialog {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    padding: 0;
+    color: #333;
+}
+
+.fullscreen .modal-content {
+    height: 100%;
+    min-height: 100%;
+    border-radius: 0;
+    color: #333;
+    background: rgba(255, 255, 255, 0.97);
+    overflow: auto;
+}
+
+.fullscreen .modal-body ul {
+    padding: 100px 0 0 0;
+}
+
+.fullscreen .modal-body li {
+    padding: 10px 0 10px 0;
+}
+
+.fullscreen .modal-body a {
+    color: #333;
+    font-size: 300%;
+}
+
+@media (max-width: 480px) {
+    .fullscreen .modal-body ul {
+        padding: 30px 0 0 0;
+        overflow: auto;
+    }
+    .fullscreen .modal-body li {
+        padding: 4px 0 4px 0;
+    }
+    .fullscreen .modal-body a {
+        color: #333;
+        font-size: 200%;
+        text-transform: uppercase;
+        font-weight: 700;
     }
 }
