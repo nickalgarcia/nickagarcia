@@ -1,9 +1,10 @@
-<h1>Silas</h1>
+
 <section class="hero">
 <div class="hero-image">
 <img src="../images/silas-hero.jpg">
 </div>
 <div class="hero-content">
+<h1 class="heading-banded" itemprop="name">Hope For Silas</h1>
 <div class="fundraising-progress">
     <div class="fundraising-progress__meter">
               <ul class="list-unstyled">
@@ -55,6 +56,15 @@
     overflow: hidden;
     text-align: center;
     background-color: #e1e2e1;
+}
+
+.heading-banded {
+    padding: 20px 15px;
+    margin: 0 0 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #02b298;
 }
 
 .fundraising-progress {
@@ -116,7 +126,7 @@
     margin: 0;
     font-size: 22px;
     font-weight: 700;
-    color: #b29802;
+    color: #02b298;
 }
 .hero-button {
     text-align: center;
