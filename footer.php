@@ -23,7 +23,15 @@
         <!-- Menu Toggle Script -->
 
 
-<?php if (stripos($_SERVER['REQUEST_URI'], 'silas.php')): ?>
+<?php
+$silas = "/?page=silas";
+$currentpage = $_SERVER['REQUEST_URI'];
+$page = $_SERVER['REQUEST_URI']; 
+$page = str_replace('/', '', $page); 
+$page = str_replace('.php', '', $page); 
+$page = str_replace('?page=', '', $page); 
+$page = $page ? $page : 'home';
+if ($silas==$currentpage): ?>
 <!-- Go to www.addthis.com/dashboard to customize your tools --> 
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58507fe68b85039f"></script> 
 <?php else: ?>
