@@ -305,9 +305,60 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
 .errMsg{ color:#fb4314 ; font-size: 15px;font-weight: bold;padding-top: 15px;}
 .g-recaptcha {margin: 15px 0;}
 
-.videos .col-lg-6 {
-    margin: 20px 0 0;
+
+#playlist .latest-video {
+    float: left;
+    width: 70%;
+    display: block;
 }
+
+#playlist .sidebar {
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+#playlist .all-videos {
+    margin: 0 0 30px;
+    position: relative;
+}
+
+.all-videos h4 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: #fff;
+    margin: 0;
+}
+
+img.play-icon {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+.scripture {
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.nick-fourth {
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 0 20px 20px 0;
+    clear: both;
+}
+
+#post-42 .embed-responsive {
+    clear: left;
+}
+
 
 @media screen and (min-width: 1200px) {
     #home {
@@ -416,4 +467,24 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
         display: block;
         float: none;
     }
+    #playlist .latest-video, #playlist .sidebar {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: 30px auto;
+}
+
+#playlist .all-videos {
+    width: 49%;
+    float: left;
+}
+
+#playlist .all-videos:nth-child(odd) {
+    margin-right: 2%;
+}
+.nick-fourth {
+    width: 100%;
+    float: none;
+    margin: auto;
+}
 }

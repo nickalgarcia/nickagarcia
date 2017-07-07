@@ -65,5 +65,6 @@ $(function() {
 }());
 
 $(function() {
-    $('.videos div').first().addClass('col-lg-12').removeClass('col-lg-6');
+    //$('.videos div').first().addClass('latest-video').removeClass('all-videos');
+    $('.all-videos' ).wrapAll( "<div class='sidebar' />");
 });

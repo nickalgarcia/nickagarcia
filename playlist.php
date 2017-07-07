@@ -13,13 +13,27 @@ $playlist = json_decode(file_get_contents($api_url));
 <?php foreach($playlist->items AS $item): ?>
 
 
-<div class="col-lg-6">
+
+<?php if ($item->snippet->position == 0): ?>
+  <div class="latest-video">
 <h4><?php echo $item->snippet->title;  ?></h4>
   <div class="embed-responsive embed-responsive-16by9 video-container">
    <div data-id="<?php echo $item->snippet->resourceId->videoId; ?>"></div>
 
   </div>
 </div>
+<?php else: ?>
+  <div class="all-videos">
+<h4><?php echo $item->snippet->title;  ?></h4>
+  <a href="https://youtu.be/<?php echo $item->snippet->resourceId->videoId; ?>?list=<?php echo $playlist_id; ?>" target="_blank">
+   <img src="https://img.youtube.com/vi/<?php echo $item->snippet->resourceId->videoId; ?>/mqdefault.jpg" alt="<?php echo $item->snippet->title;  ?>">
+   <img src="/images/play-icon.png" class="play-icon">
+
+   </a>
+</div>
+<?php endif; ?>
+
+
 
 <?php endforeach; ?>
 
