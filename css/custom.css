@@ -27,6 +27,7 @@ h1.brand {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 85px;
     text-align: center;
+    font-weight: 700;
 }
 
 #about h2 {

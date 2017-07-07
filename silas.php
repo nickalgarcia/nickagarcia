@@ -66,6 +66,7 @@
     text-transform: uppercase;
     background-color: #02b298;
     font-family: 'Josefin Sans',sans-serif;
+    font-weight: 100;
 }
 
 .fundraising-progress {
