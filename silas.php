@@ -1,8 +1,4 @@
-
 <section class="hero">
-<div class="hero-image">
-<img src="../images/silas-hero.jpg">
-</div>
 <div class="hero-content">
 <h1 class="heading-banded" itemprop="name">Hope For Silas</h1>
 <div class="fundraising-progress">
@@ -27,6 +23,10 @@
 <a class="btn" href="https://www.gofundme.com/hope-for-silas">Give</a>
 </div>
 </div>
+<div class="hero-image">
+<img src="../images/silas-hero.jpg">
+</div>
+
 </section>
 
 <style>
@@ -52,7 +52,6 @@
 
 .hero-image {
     position: relative;
-    height: 440px;
     overflow: hidden;
     text-align: center;
     background-color: #e1e2e1;
@@ -135,11 +134,11 @@
 }
 @media screen and (min-width: 992px) {
 .hero-content {
-    float: left;
+    float: right;
     width: 50%;
 }
 .hero-image {
-    float: left;
+    float: right;
     width: 50%;
 }
 }
@@ -160,3 +159,4 @@
 }
 }
 </style>
+

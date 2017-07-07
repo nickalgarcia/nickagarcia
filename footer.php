@@ -23,7 +23,10 @@
         <!-- Menu Toggle Script -->
 
 
-
-
+<?php if (stripos($_SERVER['REQUEST_URI'], 'silas.php')): ?>
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58507fe68b85039f"></script> 
+<?php else: ?>
+<?php endif; ?>
   </body>
 </html>
