@@ -35,12 +35,12 @@
     background-color: #f6f6f6;
 }
 
-.hero:after, .hero:before {
+.hero:after, .hero:before, .fundraising-progress:before, .fundraising-progress:after {
     display: table;
     content: " ";
 }
 
-.hero:after {
+.hero:after, .fundraising-progress:after {
     clear: both;
 }
 
@@ -66,10 +66,6 @@
     margin-bottom: 30px;
     margin-left: auto;
     text-align: center;
-}
-
-.fundraising-progress:after {
-    clear: both;
 }
 
 .fundraising-progress__meter {
