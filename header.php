@@ -17,7 +17,7 @@
     <link href="../../css/custom.min.css" rel="stylesheet">
 
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,700|Open+Sans:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
