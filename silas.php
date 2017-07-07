@@ -30,8 +30,12 @@
 </section>
 <div class="main-content">
 <section class="share">
+<div class="share-content">
 	<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+	<div class="share-title">Share:</div>
 	<div class="addthis_inline_share_toolbox"></div>
+	<div class="clearfix"></div>
+	</div>
 </section>
 <section class="story">
 	<div class="story-content">
