@@ -8,7 +8,8 @@
  * @subpackage nickagarcia
  * @since nickagarcia 1.0
  */
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,18 +17,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="icon" href="../../images/favicon.ico">
     <title>Nick Garcia</title>
 
     <!-- Bootstrap core CSS -->
     <!--<link href="../../css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <link href="../../css/simple-sidebar.css" rel="stylesheet">
-    <link href="../../css/custom.css" rel="stylesheet">
+    <link href="../../css/simple-sidebar.min.css" rel="stylesheet">
+    <link href="../../css/custom.min.css" rel="stylesheet">
 
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,700|Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -39,6 +44,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <meta name="p:domain_verify" content="b2cd55ca5813ba564c3284d8d9e37284"/>
+
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -49,38 +56,70 @@
   ga('send', 'pageview');
 
 </script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
 </head>
 
 <body>
     <div id="wrapper">
-
+     <button type="button" class="btn-menu navbar-toggle collapsed" data-toggle="modal" data-target="#menuModal">MENU</button>
+    <h1 class="brand"><a href="../../">Nick Garcia</a></h1>
         <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <!--<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="../../">
-                    </a>
-                </li>
-                <li>
-                    <a href="../../#about">About Me</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="../../blog/">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+                <li><a href="../../">Home</a></li>
+                <li><a href="../../#about">About Me</a></li>
+                <li><a href="../../portfolio">Portfolio</a></li>
+                <li><a href="../../blog/">Blog</a></li>
+                <li><a href="../../contact">Contact</a></li>
             </ul>
-        </nav>
+        </nav>-->
         <!-- /#sidebar-wrapper -->
+
+        <!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+    <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true">X</button>
+                    <ul>
+                        <li><a href="../../">Home</a></li>
+                        <li><a href="../../#about">About Me</a></li>
+                        <li><a href="../../portfolio">Portfolio</a></li>
+                        <li><a href="../../blog/">Blog</a></li>
+                        <li><a href="../../contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.fullscreen -->
 
                 <!-- Page Content -->
         <div id="page-content-wrapper">
-                    <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                    <!--<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
                 <span class="hamb-top"></span>
     			<span class="hamb-middle"></span>
 				<span class="hamb-bottom"></span>
-            </button>
+            </button>-->
+
+
+          <?php
+          $homepage = "/";
+          $currentpage = $_SERVER['REQUEST_URI'];
+					$page = $_SERVER['REQUEST_URI']; 
+					$page = str_replace('/', '', $page); 
+					$page = str_replace('.php', '', $page); 
+					$page = str_replace('?page=', '', $page); 
+					$page = $page ? $page : 'home';
+					if($homepage==$currentpage) {
+          $container = 'container-fluid mainContent';
+					}
+					else {
+					$container = 'container';
+					}
+					?>
+					<div class="<?php echo $container ?>" id="<?php echo $page ?>">
+					<div class="row">
+                    <div class="col-lg-12">
+
+				
