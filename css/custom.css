@@ -630,9 +630,6 @@ img.play-icon {
  * Note: I have omitted any vendor-prefixes for clarity.
  * Adding them is left as an exercise for the reader.
  */
-    p {
-        font-size: 22px;
-    }
     .sidebar-nav li a {
         font-size: 20px;
         padding: 25px 15px 25px 30px;
