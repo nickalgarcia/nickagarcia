@@ -35,6 +35,7 @@ if ($silas==$currentpage): ?>
 <?php endif; ?>
     <link rel="icon" href="../../images/favicon.ico">
     <title>Nick Garcia</title>
+    <meta name="description" content="<?php echo $pageDescription; ?>">
 
     <!-- Bootstrap core CSS -->
     <!--<link href="../../css/bootstrap.min.css" rel="stylesheet">-->
