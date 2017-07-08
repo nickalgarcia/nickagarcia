@@ -44,7 +44,7 @@
 </div>
 
 <script>
-	$.ajax({
+	jQuery.ajax({
  dataType: 'html', 
  url: 'https://www.gofundme.com/hope-for-silas', 
  success: function(response) {
