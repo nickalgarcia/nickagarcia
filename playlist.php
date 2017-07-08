@@ -1,7 +1,3 @@
-<?php 
-$pageTitle = 'Playlist';
-$pageDescription = 'This is a test description';
-?>
 
 <?php
 $api_key = 'AIzaSyCzGEtyWaLi32Yho0LLmO-g_BbhANJeAT0';
@@ -12,6 +8,10 @@ $playlist = json_decode(file_get_contents($api_url));
 
 ?>
 
+<?php 
+$pageTitle = 'Playlist';
+$pageDescription = 'This is a test description';
+?>
 
 <div class="videos">
 
