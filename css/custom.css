@@ -661,6 +661,9 @@ img.play-icon {
         padding-top: 20px;
         font-family: 'Josefin Sans', sans-serif;
     }
+    .btn-menu {
+        left: 4%;
+    }
     #about h2 {
         padding-top: 20%;
     }
