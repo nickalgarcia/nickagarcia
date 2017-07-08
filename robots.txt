@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /blog/author/
+
+Sitemap: http://nickagarcia.com/sitemap.xml
