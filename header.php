@@ -30,6 +30,7 @@ if ($silas==$currentpage): ?>
     <meta property="og:title" content="Hope for Silas" />
 <meta property="og:url" content="http://nickagarcia.com/?page=silas" />
 <meta property="og:image" content="http://nickagarcia.com/images/silas-hero.jpg" />
+<meta property="og:description" content="Silas is awesome and Stacey is sexy" />
 <?php else: ?>
 <?php endif; ?>
     <link rel="icon" href="../../images/favicon.ico">
