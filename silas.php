@@ -43,17 +43,3 @@
     </section>
 </div>
 
-<script>
-	jQuery.ajax({
- dataType: 'html', 
- url: 'https://www.gofundme.com/hope-for-silas', 
- success: function(response) {
-
-   console.log(response);
-
-//jQuery( "#page-title" ).load( "STR?fr_id=2333&pg=personal&px=3682468&pgwrap=n .span8 strong.heading" );
-
-
- }
-});
-</script>
