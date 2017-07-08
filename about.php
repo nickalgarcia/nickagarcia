@@ -1,8 +1,3 @@
-<?php
-$pageTitle = 'About';
-$pageDescription = 'This is a test';
-?>
-
 <div class="row">
 <div id="about">
 <h2>About Me</h2>
