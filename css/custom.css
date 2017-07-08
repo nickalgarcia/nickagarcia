@@ -84,7 +84,7 @@ h1.brand {
 .btn-menu {
     display: block;
     position: absolute;
-    left: 9%;
+    left: 10%;
     padding: 0;
     margin: 0;
     border: 0;
@@ -324,7 +324,7 @@ input[type="password"],
 #contact textarea {
     display: block;
     vertical-align: top;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #777;
     font-size: 16px;
     font-weight: 200;
