@@ -326,8 +326,7 @@ input[type="password"],
     vertical-align: top;
     font-family: 'Josefin Sans', sans-serif;
     color: #777;
-    font-size: 16px;
-    font-weight: 200;
+    font-size: 18px;
     margin: 0 0 15px;
     padding: 0 0 0 20px;
     border: 1px solid #dedede;
@@ -341,6 +340,7 @@ input[type="password"],
     border-radius: 0;
     box-shadow: none;
     width: 100%;
+    font-weight: 400
 }
 
 #contact textarea {
@@ -565,12 +565,6 @@ img.play-icon {
 
 /*END FUNDRAISE*/
 
-@media screen and (min-width: 1200px) {
-    #home {
-        margin-top: -70px;
-    }
-}
-
 @media screen and (min-width: 992px) {
     .hero-content {
         float: right;
@@ -636,16 +630,6 @@ img.play-icon {
  * Note: I have omitted any vendor-prefixes for clarity.
  * Adding them is left as an exercise for the reader.
  */
-    .headroom {
-        will-change: transform;
-        transition: transform 200ms linear;
-    }
-    .headroom--pinned {
-        transform: translateY(0%);
-    }
-    .headroom--unpinned {
-        transform: translateY(-100%);
-    }
     p {
         font-size: 22px;
     }

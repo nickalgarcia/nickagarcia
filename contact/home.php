@@ -59,9 +59,9 @@ document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" +
     <?php if(!empty($errMsg)): ?><div class="errMsg"><?php echo $errMsg; ?></div><?php endif; ?>
         <?php if(!empty($succMsg)): ?><div class="succMsg"><?php echo $succMsg; ?></div><?php endif; ?>
 			<form action="" method="POST">
-        <input type="text" class="text" value="<?php echo !empty($name)?$name:''; ?>" placeholder="Your full name" name="name" required="" >
-        <input type="text" class="text" value="<?php echo !empty($email)?$email:''; ?>" placeholder="Email adress" name="email" required="" >
-        <textarea type="text" placeholder="Message..." required="" name="message"><?php echo !empty($message)?$message:''; ?></textarea>
+        <input type="text" class="text" value="<?php echo !empty($name)?$name:''; ?>" placeholder="Full name" name="name" required="" >
+        <input type="text" class="text" value="<?php echo !empty($email)?$email:''; ?>" placeholder="Email address" name="email" required="" >
+        <textarea type="text" placeholder="Your message" required="" name="message"><?php echo !empty($message)?$message:''; ?></textarea>
         <div class="g-recaptcha" data-sitekey="6Le8IicUAAAAAMdpB5QI58QcQu8HWypDUGISeEu2"></div>
         <input type="submit" name="submit" value="SUBMIT" class="btn">
     	</form>
