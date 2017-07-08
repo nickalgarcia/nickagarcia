@@ -39,5 +39,5 @@
 
 
 <?php
-include '/portfolio/home.php';
+include '../portfolio/home.php';
 ?>
