@@ -15,7 +15,7 @@
  * @since nickagarcia 1.0
  */
 
-get_header(); ?>
+ ?>
 
 <div class="container" id="blog">
 	<div class="row">
@@ -63,4 +63,4 @@ get_header(); ?>
 </div>
 </div>
 
-<?php get_footer(); ?>
+
