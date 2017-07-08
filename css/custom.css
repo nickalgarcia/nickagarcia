@@ -655,8 +655,6 @@ img.play-icon {
     }
     h1.brand {
         font-size: 44px;
-        position: fixed;
-        z-index: 999;
         width: 100%;
         background: #fff;
         margin-top: 0;
