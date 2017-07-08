@@ -4,13 +4,11 @@ define('WP_USE_THEMES', false);
 require('./wp-blog-header.php');
 ?>
 
+
+
 <?php
-error_reporting(E_ALL & ~E_NOTICE);
-require_once dirname(__FILE__) . '../../header.php';
-require_once dirname(__FILE__) . '../../footer.php';
+require('./wp-blog-header.php');
 ?>
-
-
 
 <?php
 /**
