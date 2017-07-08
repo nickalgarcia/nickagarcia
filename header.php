@@ -24,12 +24,11 @@
     <!--<link href="../../css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <link href="../../css/simple-sidebar.min.css" rel="stylesheet">
     <link href="../../css/custom.min.css" rel="stylesheet">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,700|Open+Sans:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">-->
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
@@ -64,17 +63,6 @@
     <div id="wrapper">
      <button type="button" class="btn-menu navbar-toggle collapsed" data-toggle="modal" data-target="#menuModal">MENU</button>
     <h1 class="brand"><a href="../../">Nick Garcia</a></h1>
-        <!-- Sidebar -->
-        <!--<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li><a href="../../">Home</a></li>
-                <li><a href="../../#about">About Me</a></li>
-                <li><a href="../../portfolio">Portfolio</a></li>
-                <li><a href="../../blog/">Blog</a></li>
-                <li><a href="../../contact">Contact</a></li>
-            </ul>
-        </nav>-->
-        <!-- /#sidebar-wrapper -->
 
         <!-- FULLSCREEN MODAL CODE (.fullscreen) -->
     <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -96,12 +84,6 @@
 
                 <!-- Page Content -->
         <div id="page-content-wrapper">
-                    <!--<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-    			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
-            </button>-->
-
 
           <?php
           $homepage = "/";

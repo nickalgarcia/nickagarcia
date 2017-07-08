@@ -90,7 +90,8 @@ h1.brand {
     border: 0;
     top: 4%;
     font-size: 18px;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 1000;
 }
 
 #menuModal button.close {
@@ -763,22 +764,26 @@ img.play-icon {
 .fullscreen .modal-body a {
     color: #fff;
     font-size: 300%;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .fullscreen .modal-body ul {
-        padding: 30px 0 0 0;
         overflow: auto;
+        width: 90%;
+        padding: 90px 0;
     }
     .fullscreen .modal-body li {
         padding: 4px 0 4px 0;
     }
     .fullscreen .modal-body a {
-        color: #333;
+        color: #fff;
         font-size: 200%;
         text-transform: uppercase;
-        font-weight: 700;
+    }
+    #menuModal button.close {
+        top: 20%;
+        right: 15%;
     }
 }
