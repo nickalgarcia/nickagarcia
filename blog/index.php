@@ -32,7 +32,7 @@ require('./wp-blog-header.php');
  * @since nickagarcia 1.0
  */
 
-get_header(); ?>
+ ?>
 
 <div class="container" id="blog">
 	<div class="row">
