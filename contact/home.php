@@ -67,9 +67,4 @@ document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" +
     	</form>
 
 
-<script language="JavaScript">
-var username = "nick.agarcia103";
-var hostname = "gmail.com";
-var linktext = username + "@" + hostname ;
-document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
-</script>
+
