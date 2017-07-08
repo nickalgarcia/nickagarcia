@@ -17,6 +17,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+<?php
+$silas = "/?page=silas";
+$currentpage = $_SERVER['REQUEST_URI'];
+$page = $_SERVER['REQUEST_URI']; 
+$page = str_replace('/', '', $page); 
+$page = str_replace('.php', '', $page); 
+$page = str_replace('?page=', '', $page); 
+$page = $page ? $page : 'home';
+if ($silas==$currentpage): ?>
+    <meta property="og:title" content="Hope for Silas" />
+<meta property="og:url" content="http://nickagarcia.com/?page=silas" />
+<meta property="og:image" content="http://nickagarcia.com/images/silas-hero.jpg" />
+<?php else: ?>
+<?php endif; ?>
     <link rel="icon" href="../../images/favicon.ico">
     <title>Nick Garcia</title>
 
