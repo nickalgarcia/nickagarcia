@@ -767,5 +767,6 @@ img.play-icon {
     #menuModal button.close {
         top: 20%;
         right: 15%;
+        z-index: 9999;
     }
 }
