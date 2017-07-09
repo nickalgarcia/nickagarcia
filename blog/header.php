@@ -9,7 +9,6 @@
  * @since nickagarcia 1.0
  */
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,17 +62,6 @@
     <div id="wrapper">
      <button type="button" class="btn-menu navbar-toggle collapsed" data-toggle="modal" data-target="#menuModal">MENU</button>
     <h1 class="brand"><a href="../../">Nick Garcia</a></h1>
-        <!-- Sidebar -->
-        <!--<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li><a href="../../">Home</a></li>
-                <li><a href="../../#about">About Me</a></li>
-                <li><a href="../../portfolio">Portfolio</a></li>
-                <li><a href="../../blog/">Blog</a></li>
-                <li><a href="../../contact">Contact</a></li>
-            </ul>
-        </nav>-->
-        <!-- /#sidebar-wrapper -->
 
         <!-- FULLSCREEN MODAL CODE (.fullscreen) -->
     <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -95,12 +83,6 @@
 
                 <!-- Page Content -->
         <div id="page-content-wrapper">
-                    <!--<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-    			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
-            </button>-->
-
 
           <?php
           $homepage = "/";
