@@ -9,6 +9,7 @@
  * @since nickagarcia 1.0
  */
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,7 +58,7 @@
 
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
-
+<!--THIS IS THE WEIRD HEADER-->
 </head>
 
 <body>
