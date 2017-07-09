@@ -10,10 +10,6 @@
  */
 ?>
 
-<?php
-include 'meta-content.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,12 +28,12 @@ $page = str_replace('.php', '', $page);
 $page = str_replace('?page=', '', $page); 
 $page = $page ? $page : 'home';
 if ($homepage==$currentpage): ?>
-<title>Nick Garcia</title>
-<meta name="description" content="This is the homepage."/>
+<title><?php echo $pageTitle ?></title>
 <?php else: ?>
   <title><?php echo $pageTitle ?> | Nick Garcia</title>
-  <meta name="description" content="<?php echo $pageDescription ?>"/>
 <?php endif; ?>
+
+<meta name="description" content="<?php echo $pageDescription ?>"/>
 
 <!--This is a test of the title <?php echo $pageTitle ?>-->
 

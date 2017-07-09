@@ -1,3 +1,8 @@
+<?php 
+$pageTitle = 'Nick Garcia';
+$pageDescription = 'This is the homepage';
+?>
+
 <?php
 include 'header.php';
 ?>
