@@ -1,3 +1,12 @@
+<?php 
+$pageTitle = 'Resume';
+$pageDescription = 'Resume of experience and web development projects ';
+?>
+
+<?php
+include '../header.php';
+?>
+
 <div class="row">
 	<div class="col-lg-6">
 			<h2>Work Experience</h2>

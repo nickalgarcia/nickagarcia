@@ -1,3 +1,11 @@
+<?php 
+$pageTitle = 'Bell Media Group';
+$pageDescription = 'Work on development and implementation of Bell Media Group website using Wordpress.';
+?>
+
+<?php
+include '../header.php';
+?>
 		<img src="/images/portfolio/bmg.png">
 		<div class="portfolio">
 			<h2 class="title">Bell Media Group</h2>

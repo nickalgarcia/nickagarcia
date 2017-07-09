@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = 'Get In Touch';
-$pageDescription = 'This is the contact page';
+$pageDescription = 'Contat me for info on web development, design, or just to say sup.;
 ?>
 
 <?php

@@ -1,3 +1,7 @@
+<?php 
+$pageTitle = 'Playlist';
+$pageDescription = 'Test Playlist';
+?>
 
 <?php
 $api_key = 'AIzaSyCzGEtyWaLi32Yho0LLmO-g_BbhANJeAT0';

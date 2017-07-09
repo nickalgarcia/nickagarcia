@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = 'Portfolio';
-$pageDescription = 'This is the portfolio page';
+$pageDescription = 'Highlights of web development projects.';
 ?>
 
 <?php

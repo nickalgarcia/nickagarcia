@@ -1,3 +1,12 @@
+<?php 
+$pageTitle = 'Rachel Barkley Music';
+$pageDescription = 'Work on development and implementation of Rachel Barkley Music website using Wordpress.';
+?>
+
+<?php
+include '../header.php';
+?>
+
 <img src="/images/portfolio/rachel1.png">
 	<div class="portfolio">
 	<h2 class="title">Rachel Barkley Music</h2>

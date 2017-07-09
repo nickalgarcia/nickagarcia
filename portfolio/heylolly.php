@@ -1,3 +1,11 @@
+<?php 
+$pageTitle = 'Hey Lolly Music';
+$pageDescription = 'Work on development and implementation of Hey Lolly Music website using Wordpress.';
+?>
+
+<?php
+include '../header.php';
+?>
 		<img src="/images/portfolio/hey-lolly1.png">
 		<div class="portfolio">
 			<h2 class="title">Hey Lolly Music</h2>

@@ -1,3 +1,11 @@
+<?php 
+$pageTitle = 'HONK!TX';
+$pageDescription = 'Work on development and implementation of HONKTX! website using Wordpress.';
+?>
+
+<?php
+include '../header.php';
+?>
 		<img src="/images/portfolio/honk1.png">
 			<div class="portfolio">
 			<h2 class="title">HONK!TX</h2>

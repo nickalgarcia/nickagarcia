@@ -1,3 +1,12 @@
+<?php 
+$pageTitle = 'L & R Signs';
+$pageDescription = 'Work on development and implementation of L&R website.';
+?>
+
+<?php
+include '../header.php';
+?>
+
 		<img src="/images/portfolio/landr1.png">
 		<div class="portfolio">
 			<h2 class="title">L & R Signs</h2>

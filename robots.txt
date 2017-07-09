@@ -1,5 +1,6 @@
-User-agent: *
+User-Agent: *
 Disallow: /blog/author/
 Disallow: /?page=silas
+Disallow: /?page=playlist
 
 Sitemap: http://nickagarcia.com/sitemap.xml

@@ -1,3 +1,12 @@
+<?php 
+$pageTitle = 'Fund for Animals';
+$pageDescription = 'Work on development and implementation of Fund for Animals site in Luminate CMS.';
+?>
+
+<?php
+include '../header.php';
+?>
+
 		<img src="/images/portfolio/ffa1.png">
 		<div class="portfolio">
 			<h2 class="title">The Fund for Animals</h2>
