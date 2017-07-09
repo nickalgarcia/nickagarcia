@@ -1,3 +1,7 @@
+<?php
+include 'header.php';
+?>
+
 <div class="row">
 	<div class="col-lg-7 col-md-7 col-sm-7">
 		<div class="homepage-back">
@@ -19,4 +23,7 @@ include 'about.php';
 
 
 
+<?php
+include 'footer.php';
+?>
 
