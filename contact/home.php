@@ -1,3 +1,12 @@
+<?php 
+$pageTitle = 'Get In Touch';
+$pageDescription = 'This is the contact page';
+?>
+
+<?php
+include 'header.php';
+?>
+
 <?php
 if(isset($_POST['submit'])):
     if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])):

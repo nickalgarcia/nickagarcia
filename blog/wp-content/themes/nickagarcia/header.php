@@ -57,7 +57,7 @@
 
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
-
+<!--THIS IS TH HEADER INSIDE BLOG - nickagarcia-->
 </head>
 
 <body>
