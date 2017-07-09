@@ -25,12 +25,10 @@
     <!--<link href="../../css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <link href="../../css/simple-sidebar.min.css" rel="stylesheet">
     <link href="../../css/custom.min.css" rel="stylesheet">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,700|Open+Sans:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
@@ -85,7 +83,7 @@
                 <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true">X</button>
                     <ul>
                         <li><a href="../../">Home</a></li>
-                        <li><a href="../../#about">About Me</a></li>
+                        <li><a href="../../?page=about">About Me</a></li>
                         <li><a href="../../portfolio">Portfolio</a></li>
                         <li><a href="../../blog/">Blog</a></li>
                         <li><a href="../../contact">Contact</a></li>
