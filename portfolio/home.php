@@ -4,7 +4,7 @@ $pageDescription = 'This is the portfolio page';
 ?>
 
 <?php
-include 'header.php';
+include '../header.php';
 ?>
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-6">

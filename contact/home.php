@@ -4,7 +4,7 @@ $pageDescription = 'This is the contact page';
 ?>
 
 <?php
-include 'header.php';
+include '../header.php';
 ?>
 
 <?php
