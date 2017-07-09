@@ -27,8 +27,3 @@ include 'about.php';
 ?>
 
 
-
-<?php
-include 'footer.php';
-?>
-

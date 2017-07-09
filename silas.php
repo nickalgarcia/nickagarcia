@@ -1,3 +1,12 @@
+<?php 
+$pageTitle = 'Hope for Silas';
+$pageDescription = 'This is the page for Silas';
+?>
+
+<?php
+include 'header.php';
+?>
+
 <section class="hero">
     <div class="hero-content">
         <h1 class="heading-banded" itemprop="name">Hope For Silas</h1>
