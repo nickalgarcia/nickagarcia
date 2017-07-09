@@ -9,10 +9,11 @@ $fileName = basename(__FILE__);
 switch($fileName){
   case 'about.php':
     $pageTitle = 'About';
-	$pageDescription = '$pageDescription';
+	$pageDescription = 'This is a test';
     break;
-  case 'anotherpage.php':
-    echo '<link .... src="another_stylesheet_file.css" />';
+  case 'portfolio/home.php':
+    $pageTitle = 'Portfolio';
+	$pageDescription = 'This is a test';
     break;
 }
 ?>

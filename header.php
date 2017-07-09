@@ -9,6 +9,11 @@
  * @since nickagarcia 1.0
  */
 ?>
+
+<?php
+include 'meta-content.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +22,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <?php
+$homepage = "/";
+$currentpage = $_SERVER['REQUEST_URI'];
+$page = $_SERVER['REQUEST_URI']; 
+$page = str_replace('/', '', $page); 
+$page = str_replace('.php', '', $page); 
+$page = str_replace('?page=', '', $page); 
+$page = $page ? $page : 'home';
+if ($homepage==$currentpage): ?>
+<title>Nick Garcia</title>
+<meta name="description" content="This is the homepage."/>
+<?php else: ?>
+  <title><?php echo $pageTitle ?> | Nick Garcia</title>
+  <meta name="description" content="<?php echo $pageDescription ?>"/>
+<?php endif; ?>
 
 <?php
 $silas = "/?page=silas";
@@ -34,8 +55,6 @@ if ($silas==$currentpage): ?>
 <?php else: ?>
 <?php endif; ?>
     <link rel="icon" href="../../images/favicon.ico">
-    <title>Nick Garcia</title>
-    <meta name="description" content="<?php echo $pageDescription; ?>">
 
     <!-- Bootstrap core CSS -->
     <!--<link href="../../css/bootstrap.min.css" rel="stylesheet">-->
