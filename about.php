@@ -1,3 +1,12 @@
+<?php 
+$pageTitle = 'About Me';
+$pageDescription = 'This is the about page';
+?>
+
+<?php
+include 'header.php';
+?>
+
 <div class="row">
 <div id="about">
 <h2>About Me</h2>
@@ -9,3 +18,8 @@
 	</div>
 </div>
 </div>
+
+
+<?php
+include 'footer.php';
+?>
