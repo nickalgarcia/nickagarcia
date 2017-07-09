@@ -39,6 +39,8 @@ if ($homepage==$currentpage): ?>
   <meta name="description" content="<?php echo $pageDescription ?>"/>
 <?php endif; ?>
 
+<!--This is a test of the title <?php echo $pageTitle ?>-->
+
 <?php
 $silas = "/?page=silas";
 $currentpage = $_SERVER['REQUEST_URI'];
