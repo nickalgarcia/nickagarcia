@@ -29,11 +29,11 @@ include 'header.php';
             </div>
         </div>
         <div class="hero-button">
-            <a class="btn" href="https://www.gofundme.com/hope-for-silas">Give</a>
+            <a class="btn" href="https://www.gofundme.com/hope-for-silas/donate">Give</a>
         </div>
     </div>
     <div class="hero-image">
-        <img src="../images/silas-hero.jpg">
+        <img src="../images/hero-silas.jpg">
     </div>
 </section>
 <div class="main-content">
