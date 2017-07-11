@@ -45,10 +45,10 @@ include 'header.php';
         </div>
         <div class="clearfix"></div>
     </section>
-    <section class="story">
+    <!--<section class="story">
         <div class="story-content">
             <p>Together, our team is walking to help JDRF continue to fund life-changing type 1 diabetes (T1D) research and create a world without T1D. T1D is an autoimmune disease in which a person’s pancreas stops producing insulin—a hormone essential to turning food into energy. It strikes both children and adults and is unrelated to diet and lifestyle. With T1D there are no days off, and there is no cure—yet. Your support can help change that.</p>
         </div>
-    </section>
+    </section>-->
 </div>
 
