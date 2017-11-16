@@ -24,5 +24,13 @@ $(document).ready(function() {
     $(document).on('click', '.all-videos', function(event) {
         var change = $(this).find("img").attr("src").split("/");
         $(".video-container > iframe").attr("src", "https://www.youtube.com/embed/" + change[4]);
+        $('.video-description').addClass('hide');
+        $('.latest-video h4').addClass('hide');
+        $('#current-video').removeClass('hide');
+    });
+    $('#current-video').click(function() {
+        $('.video-description').removeClass('hide');
+        $('.latest-video h4').removeClass('hide');
+        $(this).addClass('hide');
     });
 });
