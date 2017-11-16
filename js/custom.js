@@ -29,8 +29,8 @@ $(document).ready(function() {
         $('#current-video').removeClass('hide');
 
     });
-
-    $('#current-video img').click(function() {
+    $(document).on('click', '#current-video', function(event) {
+    //$('#current-video img').click(function() {
         $('.video-description').removeClass('hide');
         $('.latest-video h4').removeClass('hide');
         $('#current-video').addClass('hide');
