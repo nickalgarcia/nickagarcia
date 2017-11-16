@@ -35,6 +35,7 @@ $playlist = json_decode(file_get_contents($api_url));
   <div class="video-tag"><?php echo $item->snippet->tags;  ?></div>
   <div class="recording-date"><?php echo $item->recordingDetails->recordingDate;  ?></div>
   <?php echo $item->id;  ?>
+  <?php echo $item->etag;  ?>
   <?php echo $item->recordingDetails->locationDescription;  ?>
 </div>
 <?php else: ?>
