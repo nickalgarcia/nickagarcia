@@ -31,12 +31,13 @@ $playlist = json_decode(file_get_contents($api_url));
    <div data-id="<?php echo $item->snippet->resourceId->videoId; ?>"></div>
 
   </div>
+  <div class="video-description"><?php echo $item->snippet->description;  ?></div>
 </div>
 <?php else: ?>
   <?php endif; ?>
 <?php endforeach; ?>
 
-<div class="video-sidebar clearfix">
+<div class="video-sidebar">
   <?php foreach($playlist->items AS $item): ?>
   <?php if ($item->snippet->position == 0): ?>
   <?php else: ?>
@@ -50,6 +51,7 @@ $playlist = json_decode(file_get_contents($api_url));
 </div>
 <?php endif; ?>
 <?php endforeach; ?>
+<div class="clearfix"></div>
 </div>
 
 
