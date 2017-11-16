@@ -694,7 +694,7 @@ input[type="password"],
         width: 48%;
     }
 
-    #playlist .all-videos:nth-child(even) {
+    #playlist .all-videos:nth-child(odd) {
         margin-left: 4%;
     }
 }
