@@ -36,7 +36,7 @@ $playlist = json_decode(file_get_contents($api_url));
   <div class="recording-date"><?php echo $item->recordingDetails->recordingDate;  ?></div>
   <?php echo $item->id;  ?>
   <?php echo $item->etag;  ?>
-  <?php echo $item->recordingDetails->locationDescription;  ?>
+  <?php echo $item->recordingDetails;  ?>
 </div>
 <?php else: ?>
   <?php endif; ?>
