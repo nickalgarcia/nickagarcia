@@ -45,7 +45,7 @@ $playlist = json_decode(file_get_contents($api_url));
   <div class="all-videos">
 <h4><?php echo $item->snippet->title;  ?></h4>
   <a href="https://youtu.be/<?php echo $item->snippet->resourceId->videoId; ?>?list=<?php echo $playlist_id; ?>" target="_blank">
-   <img src="https://img.youtube.com/vi/<?php echo $item->snippet->resourceId->videoId; ?>/mqdefault.jpg" alt="<?php echo $item->snippet->title;  ?>">
+   <img src="https://img.youtube.com/vi/<?php echo $item->snippet->resourceId->videoId; ?>/mqdefault.jpg" alt="<?php echo $item->snippet->title;  ?>" data-video-id="<?php echo $item->snippet->resourceId->videoId; ?>">
    <i class="play-icon"></i>
 
    </a>
@@ -129,4 +129,16 @@ function stopVideo() {
     player.stopVideo();
     //player2.stopVideo();
 }
+</script>
+
+<script>
+$('.all-videos img').click(function() {
+      var d = $(this).data('video-id');      
+      console.log(d);   
+});
+
+$(document).on('click', '.all-videos', function (event) {
+    var change = $(this).find("img").attr("src").split("/");
+    $(".video-container > iframe").attr("src", "https://www.youtube.com/embed/" + change[4]);
+});
 </script>
