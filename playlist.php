@@ -132,14 +132,3 @@ function stopVideo() {
 }
 </script>
 
-<script>
-$('.all-videos img').click(function() {
-      var d = $(this).data('video-id');      
-      console.log(d);   
-});
-
-$(document).on('click', '.all-videos', function (event) {
-    var change = $(this).find("img").attr("src").split("/");
-    $(".video-container > iframe").attr("src", "https://www.youtube.com/embed/" + change[4]);
-});
-</script>
