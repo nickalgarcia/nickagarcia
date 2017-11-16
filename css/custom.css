@@ -743,10 +743,6 @@ input[type="password"],
         display: block;
         margin: 30px auto;
     }
-    #playlist .all-videos {
-        width: 49%;
-        float: left;
-    }
     .nick-fourth {
         width: 100%;
         float: none;
