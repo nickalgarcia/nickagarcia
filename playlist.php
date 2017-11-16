@@ -5,7 +5,7 @@ $pageDescription = 'Test Playlist';
 
 <?php
 $api_key = 'AIzaSyCzGEtyWaLi32Yho0LLmO-g_BbhANJeAT0';
-$playlist_id =  'PLuOLDLJB-pFIY-e1xCftVZCJUIZP-NS4s'; 
+$playlist_id =  'PLuOLDLJB-pFKhxWw-wELFnjRdooyWVaqH'; 
 $api_url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId='. $playlist_id . '&key=' . $api_key;
       
 $playlist = json_decode(file_get_contents($api_url));
