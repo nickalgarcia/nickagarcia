@@ -32,6 +32,7 @@ $playlist = json_decode(file_get_contents($api_url));
 
   </div>
 </div>
+<div class="video-sidebar">
 <?php else: ?>
   <div class="all-videos">
 <h4><?php echo $item->snippet->title;  ?></h4>
@@ -42,6 +43,7 @@ $playlist = json_decode(file_get_contents($api_url));
    </a>
 </div>
 <?php endif; ?>
+</div>
 
 
 
