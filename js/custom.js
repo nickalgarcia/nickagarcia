@@ -27,11 +27,13 @@ $(document).ready(function() {
         $('.video-description').addClass('hide');
         $('.latest-video h4').addClass('hide');
         $('#current-video').removeClass('hide');
-        $('#current-video').click(function() {
-            $('.video-description').removeClass('hide');
-            $('.latest-video h4').removeClass('hide');
-            $(this).addClass('hide');
-        });
+
+    });
+
+    $('#current-video img').click(function() {
+        $('.video-description').removeClass('hide');
+        $('.latest-video h4').removeClass('hide');
+        $(this).addClass('hide');
     });
 
 });
