@@ -399,8 +399,11 @@ input[type="password"],
     margin: 0;
 }
 
-img.play-icon {
-    width: 20%;
+.play-icon {
+    background: url('/images/play-icon.png') no-repeat;
+    width: 55px;
+    height: 38px;
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
