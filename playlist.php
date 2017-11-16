@@ -44,7 +44,8 @@ $playlist = json_decode(file_get_contents($api_url));
   <?php else: ?>
   <div class="all-videos">
 <h4><?php echo $item->snippet->title;  ?></h4>
-  <a href="https://youtu.be/<?php echo $item->snippet->resourceId->videoId; ?>?list=<?php echo $playlist_id; ?>" target="_blank">
+  <!--<a href="https://youtu.be/<?php echo $item->snippet->resourceId->videoId; ?>?list=<?php echo $playlist_id; ?>" target="_blank">-->
+    <a href="javascript:void(0)">
    <img src="https://img.youtube.com/vi/<?php echo $item->snippet->resourceId->videoId; ?>/mqdefault.jpg" alt="<?php echo $item->snippet->title;  ?>" data-video-id="<?php echo $item->snippet->resourceId->videoId; ?>">
    <i class="play-icon"></i>
 
