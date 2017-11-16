@@ -32,8 +32,14 @@ $playlist = json_decode(file_get_contents($api_url));
 
   </div>
 </div>
-<div class="video-sidebar">
 <?php else: ?>
+  <?php endif; ?>
+<?php endforeach; ?>
+
+<div class="video-sidebar">
+  <?php foreach($playlist->items AS $item): ?>
+  <?php if ($item->snippet->position == 0): ?>
+  <?php else: ?>
   <div class="all-videos">
 <h4><?php echo $item->snippet->title;  ?></h4>
   <a href="https://youtu.be/<?php echo $item->snippet->resourceId->videoId; ?>?list=<?php echo $playlist_id; ?>" target="_blank">
@@ -43,11 +49,14 @@ $playlist = json_decode(file_get_contents($api_url));
    </a>
 </div>
 <?php endif; ?>
+<?php endforeach; ?>
 </div>
 
 
 
-<?php endforeach; ?>
+
+
+
 
 </div>
 
