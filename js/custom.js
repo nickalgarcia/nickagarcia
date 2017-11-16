@@ -33,7 +33,7 @@ $(document).ready(function() {
     $('#current-video img').click(function() {
         $('.video-description').removeClass('hide');
         $('.latest-video h4').removeClass('hide');
-        $(this).addClass('hide');
+        $('#current-video').addClass('hide');
     });
 
 });
