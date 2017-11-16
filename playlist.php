@@ -32,7 +32,6 @@ $playlist = json_decode(file_get_contents($api_url));
 
   </div>
   <div class="video-description"><?php echo $item->snippet->description;  ?></div>
-  <div class="recording-date"><?php echo $item->contentDetails->videoPublishedAt;  ?></div>
 </div>
 <?php else: ?>
   <?php endif; ?>
