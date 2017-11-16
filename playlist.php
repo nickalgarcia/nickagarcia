@@ -1,7 +1,12 @@
 <?php 
-$pageTitle = 'Playlist';
-$pageDescription = 'Test Playlist';
+$pageTitle = 'Verse of the Day';
+$pageDescription = 'My name is Nick Garcia and I am a Web Developer based out of Austin, TX. I primarily do front-end development for Non-Profits, Churches, Small Businesses, and musicians.';
 ?>
+
+<?php
+include 'header.php';
+?>
+
 
 <?php
 $api_key = 'AIzaSyCzGEtyWaLi32Yho0LLmO-g_BbhANJeAT0';
