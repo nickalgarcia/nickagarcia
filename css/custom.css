@@ -423,6 +423,10 @@ input[type="password"],
     position: relative;
 }
 
+#playlist div#current-video {
+    margin-top: -50px;
+}
+
 .all-videos h4 {
     position: absolute;
     bottom: 5%;
