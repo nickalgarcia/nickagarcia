@@ -36,7 +36,7 @@ $playlist = json_decode(file_get_contents($api_url));
   <?php endif; ?>
 <?php endforeach; ?>
 
-<div class="video-sidebar">
+<div class="video-sidebar clearfix">
   <?php foreach($playlist->items AS $item): ?>
   <?php if ($item->snippet->position == 0): ?>
   <?php else: ?>

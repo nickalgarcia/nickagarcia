@@ -178,6 +178,8 @@ li.sidebar-brand a:hover {
 }
 
 
+
+
 /*BLOG*/
 
 #blog .col-lg-6 {
@@ -203,6 +205,8 @@ div#jp-relatedposts {
 nav.navigation.post-navigation {
     display: none;
 }
+
+
 
 
 /*PORTFOLIO*/
@@ -250,6 +254,8 @@ h2.title {
 .portfolio {
     margin: 40px 0;
 }
+
+
 
 
 /*END PORTFOLIO*/
@@ -315,6 +321,8 @@ ul.skills-list {
 }
 
 
+
+
 /*END RESUME*/
 
 input[type="text"],
@@ -371,10 +379,10 @@ input[type="password"],
     display: block;
 }
 
-#playlist .sidebar {
+#playlist .video-sidebar {
     float: left;
     width: 25%;
-    margin-left: 5%;
+    margin-left: 4%;
     margin-top: 40px;
 }
 
@@ -417,6 +425,8 @@ img.play-icon {
 #post-42 .embed-responsive {
     clear: left;
 }
+
+
 
 
 /*FUNDRAISE*/
@@ -563,6 +573,8 @@ img.play-icon {
 }
 
 
+
+
 /*END FUNDRAISE*/
 
 @media screen and (min-width: 992px) {
@@ -622,6 +634,27 @@ img.play-icon {
         width: 100%;
         display: block;
         float: none;
+    }
+    #playlist .video-sidebar {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        display: block;
+    }
+
+    #playlist .latest-video {
+        float: none;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #playlist .all-videos {
+        float: left;
+        width: 48%;
+    }
+
+    #playlist .all-videos:nth-child(even) {
+        margin-left: 4%;
     }
 }
 
@@ -687,9 +720,6 @@ img.play-icon {
         width: 49%;
         float: left;
     }
-    #playlist .all-videos:nth-child(odd) {
-        margin-right: 2%;
-    }
     .nick-fourth {
         width: 100%;
         float: none;
@@ -698,6 +728,12 @@ img.play-icon {
     .share-content {
         float: none;
         text-align: center;
+    }
+    #playlist .all-videos h4 {
+        position: static;
+        color: #333;
+        margin-bottom: 10px;
+        font-size: 13px;
     }
 }
 
@@ -709,6 +745,8 @@ img.play-icon {
         font-size: 32px;
     }
 }
+
+
 
 
 /* FULL SCREEN MODAL STYLES
