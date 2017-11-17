@@ -151,14 +151,4 @@ function stopVideo() {
 </script>
 
 
-[[?xWalk For Wishesx::x[[S42:0:type]]x::
-[[?xx::x[[S42:0:tax-id]]x::
-[[S120:dc:taxID]]
-::
-[[S42:0:tax-id]]
-]]
-::
-[[S120:dc:taxID]]
-]]
-
 
