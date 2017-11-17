@@ -94,7 +94,7 @@ if ($homepage==$currentpage): ?>
                         <li><a href="../../">Home</a></li>
                         <li><a href="../../?page=about">About Me</a></li>
                         <li><a href="../../portfolio">Portfolio</a></li>
-                        <li><a href="../../playlist">Verse of the Day</a></li>
+                        <li><a href="../../?page=playlist">Verse of the Day</a></li>
                         <li><a href="../../blog/">Blog</a></li>
                         <li><a href="../../contact">Contact</a></li>
                     </ul>
