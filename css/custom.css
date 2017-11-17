@@ -435,6 +435,18 @@ input[type="password"],
     margin-top: -50px;
 }
 
+#playlist .show-more {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#playlist .show-more a {
+    text-decoration: underline;
+}
+
 .all-videos h4 {
     position: absolute;
     bottom: 5%;

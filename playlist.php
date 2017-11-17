@@ -15,7 +15,7 @@ include 'header.php';
 <?php
 $api_key = 'AIzaSyCzGEtyWaLi32Yho0LLmO-g_BbhANJeAT0';
 $playlist_id =  'PLuOLDLJB-pFKhxWw-wELFnjRdooyWVaqH'; 
-$api_url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId='. $playlist_id . '&key=' . $api_key;
+$api_url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId='. $playlist_id . '&key=' . $api_key;
       
 $playlist = json_decode(file_get_contents($api_url));
 
@@ -29,22 +29,23 @@ $playlist = json_decode(file_get_contents($api_url));
 
 
 
+<div class="latest-video">
 <?php if ($item->snippet->position == 0): ?>
-  <div class="latest-video">
+  
 <h4><?php echo $item->snippet->title;  ?></h4>
   <div class="embed-responsive embed-responsive-16by9 video-container">
    <div data-id="<?php echo $item->snippet->resourceId->videoId; ?>"></div>
 
   </div>
   <div class="video-description"><?php echo $item->snippet->description;  ?></div>
-</div>
+
 <?php else: ?>
   <?php endif; ?>
 <?php endforeach; ?>
 
 <div class="show-more">
-Wanna see more?
-<a href="https://www.youtube.com/playlist?list=PLuOLDLJB-pFKhxWw-wELFnjRdooyWVaqH" target="_blank">View all videos</a></div>
+For more Verse of the Day videos,<br> check out my <a href="https://www.youtube.com/playlist?list=PLuOLDLJB-pFKhxWw-wELFnjRdooyWVaqH" target="_blank">YouTube channel</a>.</div>
+</div>
 
 <div class="video-sidebar">
   <?php foreach($playlist->items AS $item): ?>
