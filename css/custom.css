@@ -772,6 +772,12 @@ input[type="password"],
         margin-bottom: 10px;
         font-size: 13px;
     }
+    #playlist .play-icon {
+        margin: -10px 0 0 -25px;
+    }
+    #playlist div#current-video {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 38em) {
