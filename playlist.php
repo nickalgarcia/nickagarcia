@@ -1,6 +1,10 @@
 <?php 
 $pageTitle = 'Verse of the Day';
 $pageDescription = 'My name is Nick Garcia and I am a Web Developer based out of Austin, TX. I primarily do front-end development for Non-Profits, Churches, Small Businesses, and musicians.';
+$OGpageTitle = 'Verse of the Day';
+$OGpageUrl = $_SERVER['REQUEST_URI'];
+$OGpageImage = 'http://nickagarcia.com/images/verse.jpg';
+$OGpageDescription = 'Using the YouVersion Bible app, I make a daily video discussing the verse of the day.';
 ?>
 
 <?php
@@ -140,4 +144,16 @@ function stopVideo() {
     //player2.stopVideo();
 }
 </script>
+
+
+[[?xWalk For Wishesx::x[[S42:0:type]]x::
+[[?xx::x[[S42:0:tax-id]]x::
+[[S120:dc:taxID]]
+::
+[[S42:0:tax-id]]
+]]
+::
+[[S120:dc:taxID]]
+]]
+
 

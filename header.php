@@ -34,21 +34,11 @@ if ($homepage==$currentpage): ?>
 
 <meta name="description" content="<?php echo $pageDescription ?>"/>
 
-<?php
-$silas = "/?page=silas";
-$currentpage = $_SERVER['REQUEST_URI'];
-$page = $_SERVER['REQUEST_URI']; 
-$page = str_replace('/', '', $page); 
-$page = str_replace('.php', '', $page); 
-$page = str_replace('?page=', '', $page); 
-$page = $page ? $page : 'home';
-if ($silas==$currentpage): ?>
-    <meta property="og:title" content="Hope for Silas" />
-<meta property="og:url" content="http://nickagarcia.com/?page=silas" />
-<meta property="og:image" content="http://nickagarcia.com/images/hero-silas.jpg" />
-<meta property="og:description" content="Hope for Silas" />
-<?php else: ?>
-<?php endif; ?>
+    <meta property="og:title" content="<?php echo $OGpageTitle ?>" />
+<meta property="og:url" content="<?php echo $OGpageUrl ?>" />
+<meta property="og:image" content="<?php echo $OGpageImage ?>" />
+<meta property="og:description" content="<?php echo $OGpageDescription ?>" />
+
     <link rel="icon" href="../../images/favicon.ico">
 
     <!-- Bootstrap core CSS -->
