@@ -42,12 +42,15 @@ $playlist = json_decode(file_get_contents($api_url));
   <?php endif; ?>
 <?php endforeach; ?>
 
+<div class="show-more">
+Wanna see more?
+<a href="https://www.youtube.com/playlist?list=PLuOLDLJB-pFKhxWw-wELFnjRdooyWVaqH" target="_blank">View all videos</a></div>
+
 <div class="video-sidebar">
   <?php foreach($playlist->items AS $item): ?>
   <?php if ($item->snippet->position == 0): ?>
     <div class="all-videos hide" id="current-video">
 <h4><?php echo $item->snippet->title;  ?></h4>
-  <!--<a href="https://youtu.be/<?php echo $item->snippet->resourceId->videoId; ?>?list=<?php echo $playlist_id; ?>" target="_blank">-->
     <a href="javascript:void(0)">
    <img src="https://img.youtube.com/vi/<?php echo $item->snippet->resourceId->videoId; ?>/mqdefault.jpg" alt="<?php echo $item->snippet->title;  ?>" data-video-id="<?php echo $item->snippet->resourceId->videoId; ?>">
    <i class="play-icon"></i>
