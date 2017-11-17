@@ -184,6 +184,8 @@ li.sidebar-brand a:hover {
 
 
 
+
+
 /*BLOG*/
 
 #blog .col-lg-6 {
@@ -209,6 +211,8 @@ div#jp-relatedposts {
 nav.navigation.post-navigation {
     display: none;
 }
+
+
 
 
 
@@ -258,6 +262,8 @@ h2.title {
 .portfolio {
     margin: 40px 0;
 }
+
+
 
 
 
@@ -327,6 +333,8 @@ ul.skills-list {
 
 
 
+
+
 /*END RESUME*/
 
 input[type="text"],
@@ -380,7 +388,7 @@ input[type="password"],
 #playlist h2.page-title {
     font-size: 65px;
     font-weight: bold;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #playlist .video-description {
@@ -388,7 +396,7 @@ input[type="password"],
     font-weight: bold;
     line-height: 28px;
     padding-top: 15px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #playlist .video-description div {
@@ -397,7 +405,7 @@ input[type="password"],
     font-weight: 300;
     line-height: 20px;
     padding-top: 10px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #playlist .latest-video h4 {
@@ -464,6 +472,8 @@ input[type="password"],
 #post-42 .embed-responsive {
     clear: left;
 }
+
+
 
 
 
@@ -614,6 +624,8 @@ input[type="password"],
 
 
 
+
+
 /*END FUNDRAISE*/
 
 @media screen and (min-width: 992px) {
@@ -697,6 +709,19 @@ input[type="password"],
     #playlist .all-videos:nth-child(odd) {
         margin-left: 4%;
     }
+
+    #playlist div#current-video {
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    #playlist div#current-video img {
+        margin: auto;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -775,9 +800,6 @@ input[type="password"],
     #playlist .play-icon {
         margin: -10px 0 0 -25px;
     }
-    #playlist div#current-video {
-        margin-top: 0;
-    }
 }
 
 @media (min-width: 38em) {
@@ -788,6 +810,8 @@ input[type="password"],
         font-size: 32px;
     }
 }
+
+
 
 
 
