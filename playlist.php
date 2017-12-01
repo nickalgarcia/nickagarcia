@@ -46,7 +46,7 @@ $playlist = json_decode(file_get_contents($api_url));
 
 <div class="show-more">
 For more Verse of the Day videos,<br> check out my <a href="https://www.youtube.com/playlist?list=PLuOLDLJB-pFKhxWw-wELFnjRdooyWVaqH" target="_blank">YouTube channel</a>.</div>
-<div class="fb-comments" data-href="http://nickagarcia.com/?page=playlist" data-numposts="10"></div>
+<div class="fb-comments" data-href="http://nickagarcia.com/?page=playlist" data-width="100%" data-numposts="10"></div>
 </div>
 
 
