@@ -628,6 +628,11 @@ input[type="password"],
     float: right;
 }
 
+.fb-comments iframe {
+    left: 0;
+    min-height: 200px !important;
+}
+
 .clearfix {
     display: block;
     clear: both;
