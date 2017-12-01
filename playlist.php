@@ -48,6 +48,8 @@ $playlist = json_decode(file_get_contents($api_url));
 For more Verse of the Day videos,<br> check out my <a href="https://www.youtube.com/playlist?list=PLuOLDLJB-pFKhxWw-wELFnjRdooyWVaqH" target="_blank">YouTube channel</a>.</div>
 </div>
 
+<div class="fb-comments" data-href="http://nickagarcia.com/?page=playlist" data-numposts="10"></div>
+
 <div class="video-sidebar">
   <?php foreach($playlist->items AS $item): ?>
   <?php if ($item->snippet->position == 0): ?>
