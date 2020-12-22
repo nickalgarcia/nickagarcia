@@ -14,7 +14,7 @@ include 'header.php';
 
 <?php
 $api_key = 'AIzaSyCyiNh90YLET9IW5Mzv5rnVa3QwC87XtO4';
-$playlist_id =  'PLuOLDLJB-pFKhxWw-wELFnjRdooyWVaqH'; 
+$playlist_id =  'PLOod4-UyT2YkTvXCpuo4YMA96IPAllFeB'; 
 $api_url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId='. $playlist_id . '&key=' . $api_key;
       
 $playlist = json_decode(file_get_contents($api_url));
