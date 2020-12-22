@@ -13,7 +13,7 @@ include 'header.php';
 
 
 <?php
-$api_key = 'AIzaSyCzGEtyWaLi32Yho0LLmO-g_BbhANJeAT0';
+$api_key = 'AIzaSyC5Ila20MYdgZ29yNU3_7iYejZUlql-1MQ';
 $playlist_id =  'PLuOLDLJB-pFKhxWw-wELFnjRdooyWVaqH'; 
 $api_url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId='. $playlist_id . '&key=' . $api_key;
       
