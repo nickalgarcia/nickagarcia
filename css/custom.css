@@ -392,9 +392,9 @@ input[type="password"],
 }
 
 #playlist .video-description {
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 28px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2px;
     padding-top: 15px;
     font-family: 'Open Sans', sans-serif;
 }
