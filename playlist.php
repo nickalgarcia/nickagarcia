@@ -24,7 +24,7 @@ $playlist = json_decode(file_get_contents($api_url));
 
 
 <div class="videos">
-<h2 class="page-title">Verse of the Day</h2>
+<h2 class="page-title">Videos</h2>
 <div class="latest-video">
 <?php foreach($playlist->items AS $item): ?>
 
